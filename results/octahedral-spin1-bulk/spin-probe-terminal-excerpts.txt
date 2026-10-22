@@ -1,0 +1,5 @@
+built 3 4 observables 2 seconds 0.07210843400025624
+coarse y 7.061303573000259 shape 3 2 3
+coarse x 257.80784314599987 shape 2 2 3
+finalwidth 18.0
+RESULT 3 4 z 88746322539.42801 Czzandonepoint [np.complex128(6.335712048027767e-05+0j), np.complex128(-3.4515520385130905e-20j)] seconds 258.0715854959999

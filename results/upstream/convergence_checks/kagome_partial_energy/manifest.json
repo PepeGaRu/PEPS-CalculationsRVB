@@ -1,0 +1,78 @@
+{
+  "upstream_url": "https://github.com/jurajHasik/peps-torch.git",
+  "upstream_commit": "239a2e717a567df0ece80a5bce5443a6f78d048b",
+  "versions": {
+    "python": "3.12.14 (main, Aug 25 2026, 14:00:49) [Clang 22.1.3 ]",
+    "numpy": "2.5.4",
+    "scipy": "1.18.1",
+    "torch": "2.6.0+cpu"
+  },
+  "runs": [
+    {
+      "command": [
+        "/workspace/peps-environment/.venv/bin/python",
+        "-u",
+        "/workspace/PEPS-CalculationsRVB/scripts/run_upstream.py",
+        "--worker",
+        "kagome",
+        "--source",
+        "/workspace/peps-environment/upstream/peps-torch",
+        "--chi",
+        "18",
+        "--corrf_r",
+        "20",
+        "--top_n",
+        "10",
+        "--CTMARGS_ctm_max_iter",
+        "1000",
+        "--omp_cores",
+        "2",
+        "--out_prefix",
+        "/workspace/PEPS-CalculationsRVB/results/upstream/kagome_chi18_internal",
+        "--ansatz",
+        "IPESS",
+        "--instate",
+        "test-input/IPESS_KAGOME_D3_RVB.in",
+        "--bond_dim",
+        "3",
+        "--GLOBALARGS_dtype",
+        "complex128"
+      ],
+      "cwd": "/workspace/peps-environment/upstream/peps-torch",
+      "elapsed_seconds": 3.4208949559999837
+    },
+    {
+      "command": [
+        "/workspace/peps-environment/.venv/bin/python",
+        "-u",
+        "/workspace/PEPS-CalculationsRVB/scripts/run_upstream.py",
+        "--worker",
+        "kagome",
+        "--source",
+        "/workspace/peps-environment/upstream/peps-torch",
+        "--chi",
+        "32",
+        "--corrf_r",
+        "20",
+        "--top_n",
+        "10",
+        "--CTMARGS_ctm_max_iter",
+        "1000",
+        "--omp_cores",
+        "2",
+        "--out_prefix",
+        "/workspace/PEPS-CalculationsRVB/results/upstream/kagome_chi32_internal",
+        "--ansatz",
+        "IPESS",
+        "--instate",
+        "test-input/IPESS_KAGOME_D3_RVB.in",
+        "--bond_dim",
+        "3",
+        "--GLOBALARGS_dtype",
+        "complex128"
+      ],
+      "cwd": "/workspace/peps-environment/upstream/peps-torch",
+      "elapsed_seconds": 8.41488004100006
+    }
+  ]
+}

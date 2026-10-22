@@ -1,0 +1,240 @@
+{
+  "status": "Exploratory finite boxes; incomplete mixing and finite-size errors remain.",
+  "observable": "Physical S_i dot S_j, averaged over origins and cubic axes",
+  "error_definition": "20-block jackknife after 25% burn-in; statistical errors only",
+  "correlation_length": null,
+  "runs": [
+    {
+      "L": 4,
+      "steps": 100000,
+      "seed": 39383,
+      "initial": "diagonal",
+      "bias": 1.0,
+      "seconds": 167.69227050100017,
+      "source": "results/octahedral_bulk_overlap/mcmc_L4_diagonal_39383.json",
+      "measurements": 3000,
+      "burn_in_fraction": 0.25,
+      "moves": {
+        "single_cube": [
+          20076,
+          4
+        ],
+        "joint_cube": [
+          19939,
+          13212
+        ],
+        "single_line": [
+          40049,
+          9938
+        ],
+        "joint_line": [
+          19936,
+          19930
+        ]
+      },
+      "negative_proposals": 0,
+      "correlations": {
+        "spin_parallel_1": {
+          "mean": -0.568666666666667,
+          "block_error": 0.020616804591860268,
+          "nonzero_samples": 1121
+        },
+        "spin_perpendicular_1": {
+          "mean": 0.0030833333333333394,
+          "block_error": 0.0014523372975073603,
+          "nonzero_samples": 29
+        },
+        "spin_parallel_2": {
+          "mean": 0.08,
+          "block_error": 0.011647854507156349,
+          "nonzero_samples": 420
+        },
+        "spin_perpendicular_2": {
+          "mean": -0.0021666666666666653,
+          "block_error": 0.0010051039339932237,
+          "nonzero_samples": 27
+        }
+      },
+      "raw_trimer_mismatch_fraction": 0.006666666666666667
+    },
+    {
+      "L": 4,
+      "steps": 100000,
+      "seed": 49383,
+      "initial": "independent",
+      "bias": 1.0,
+      "seconds": 179.5642938430001,
+      "source": "results/octahedral_bulk_overlap/mcmc_L4_independent_49383.json",
+      "measurements": 3000,
+      "burn_in_fraction": 0.25,
+      "moves": {
+        "joint_line": [
+          20205,
+          20184
+        ],
+        "joint_cube": [
+          19849,
+          13350
+        ],
+        "single_line": [
+          39788,
+          9674
+        ],
+        "single_cube": [
+          20158,
+          33
+        ]
+      },
+      "negative_proposals": 0,
+      "correlations": {
+        "spin_parallel_1": {
+          "mean": -0.551333333333333,
+          "block_error": 0.01876353312781452,
+          "nonzero_samples": 1095
+        },
+        "spin_perpendicular_1": {
+          "mean": 0.004666666666666667,
+          "block_error": 0.001037315473620666,
+          "nonzero_samples": 34
+        },
+        "spin_parallel_2": {
+          "mean": 0.07718749999999995,
+          "block_error": 0.01549213613356769,
+          "nonzero_samples": 414
+        },
+        "spin_perpendicular_2": {
+          "mean": -0.0017500000000000011,
+          "block_error": 0.0009005764885316,
+          "nonzero_samples": 27
+        }
+      },
+      "raw_trimer_mismatch_fraction": 0.01633333333333333
+    },
+    {
+      "L": 6,
+      "steps": 20000,
+      "seed": 49313,
+      "initial": "diagonal",
+      "bias": 1.0,
+      "seconds": 128.8038380779999,
+      "source": "results/octahedral_bulk_overlap/mcmc_L6_diagonal_49313.json",
+      "measurements": 600,
+      "burn_in_fraction": 0.25,
+      "moves": {
+        "single_cube": [
+          3924,
+          8
+        ],
+        "joint_cube": [
+          4087,
+          3726
+        ],
+        "joint_line": [
+          4101,
+          4074
+        ],
+        "single_line": [
+          7888,
+          431
+        ]
+      },
+      "negative_proposals": 0,
+      "correlations": {
+        "spin_parallel_1": {
+          "mean": -0.46666666666666695,
+          "block_error": 0.03058876451607479,
+          "nonzero_samples": 150
+        },
+        "spin_perpendicular_1": {
+          "mean": 0.002083333333333307,
+          "block_error": 0.002083333333333307,
+          "nonzero_samples": 1
+        },
+        "spin_parallel_2": {
+          "mean": 0.0033333333333333474,
+          "block_error": 0.009015905373705018,
+          "nonzero_samples": 7
+        },
+        "spin_perpendicular_2": {
+          "mean": -0.0016666666666666674,
+          "block_error": 0.0011470786693528095,
+          "nonzero_samples": 2
+        },
+        "spin_parallel_3": {
+          "mean": -0.010000000000000042,
+          "block_error": 0.01110818674966793,
+          "nonzero_samples": 7
+        },
+        "spin_perpendicular_3": {
+          "mean": 0.0008333333333333337,
+          "block_error": 0.0008333333333333336,
+          "nonzero_samples": 1
+        }
+      },
+      "raw_trimer_mismatch_fraction": 0.09
+    },
+    {
+      "L": 6,
+      "steps": 30000,
+      "seed": 99295,
+      "initial": "diagonal",
+      "bias": 100.0,
+      "seconds": 122.84629628699986,
+      "source": "results/octahedral_bulk_overlap/mcmc_L6_diagonal_99295_bias100.json",
+      "measurements": 900,
+      "burn_in_fraction": 0.25,
+      "moves": {
+        "single_line": [
+          12017,
+          698
+        ],
+        "single_cube": [
+          5935,
+          41
+        ],
+        "joint_cube": [
+          6009,
+          5393
+        ],
+        "joint_line": [
+          6039,
+          5940
+        ]
+      },
+      "negative_proposals": 0,
+      "correlations": {
+        "spin_parallel_1": {
+          "mean": -0.5958118586618392,
+          "block_error": 0.050216300001927866,
+          "nonzero_samples": 277
+        },
+        "spin_perpendicular_1": {
+          "mean": 0.0012014208106978707,
+          "block_error": 0.001183307353059946,
+          "nonzero_samples": 11
+        },
+        "spin_parallel_2": {
+          "mean": 0.014068811812230434,
+          "block_error": 0.014788227433226712,
+          "nonzero_samples": 24
+        },
+        "spin_perpendicular_2": {
+          "mean": 1.1607930538143928e-05,
+          "block_error": 0.0016433214816645918,
+          "nonzero_samples": 3
+        },
+        "spin_parallel_3": {
+          "mean": 0.013790221479314989,
+          "block_error": 0.016172793425229943,
+          "nonzero_samples": 22
+        },
+        "spin_perpendicular_3": {
+          "mean": 0.0023099781770905894,
+          "block_error": 0.001673412521850093,
+          "nonzero_samples": 3
+        }
+      },
+      "raw_trimer_mismatch_fraction": 0.5266666666666666
+    }
+  ]
+}

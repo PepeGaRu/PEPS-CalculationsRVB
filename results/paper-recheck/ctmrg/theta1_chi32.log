@@ -1,0 +1,15 @@
+/workspace/peps-environment/upstream/peps-torch/ipeps/tensor_io.py:8: Warning: yast not available
+  warnings.warn("yast not available", Warning)
+Warning: Missing arrayfire. SVDAF is not available.
+Warning: Missing arrayfire. SVDAF is not available.
+Warning: Missing cuquantum.
+Warning: Missing arrayfire. SVDAF is not available.
+CTMRG iteration=1 corner_spectrum_residual=inf
+CTMRG iteration=2 corner_spectrum_residual=0
+OBS zz_01_x mean=-0.25 connected=-8.49174e-20,0,0,8.17103e-34,0,8.17103e-34,0,8.17103e-34,0,8.17103e-34,0,8.17103e-34
+OBS zz_01_y mean=-0.25 connected=2.91777e-18,1.19662e-34,9.61548e-34,9.61548e-34,9.61548e-34,9.61548e-34,9.61548e-34,9.61548e-34,9.61548e-34,9.61548e-34,9.61548e-34,9.61548e-34
+OBS zz_02_x mean=-0.25 connected=7.68516e-19,1.63421e-33,2.45131e-33,4.08551e-33,2.45131e-33,4.08551e-33,2.45131e-33,4.08551e-33,2.45131e-33,4.08551e-33,2.45131e-33,4.08551e-33
+OBS zz_02_y mean=-0.25 connected=-4.5345e-18,1.96983e-33,2.7402e-33,4.42397e-33,4.42397e-33,4.42397e-33,4.42397e-33,4.42397e-33,4.42397e-33,4.42397e-33,4.42397e-33,4.42397e-33
+OBS zz_12_x mean=-0.25 connected=-1.16912e-18,1.63421e-33,2.45131e-33,1.63421e-33,2.45131e-33,1.63421e-33,2.45131e-33,1.63421e-33,2.45131e-33,1.63421e-33,2.45131e-33,1.63421e-33
+OBS zz_12_y mean=-0.25 connected=4.12635e-18,7.47007e-34,1.69228e-34,-8.17103e-34,7.47007e-34,9.8633e-34,9.8633e-34,9.8633e-34,9.8633e-34,9.8633e-34,9.8633e-34,9.8633e-34
+Saved /workspace/PEPS-CalculationsRVB/results/paper-recheck/ctmrg/theta1_chi32.json; CTMRG converged=True; total_seconds=0.560

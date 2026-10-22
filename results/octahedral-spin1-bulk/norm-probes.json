@@ -1,0 +1,124 @@
+{
+  "method": "quimb 1.15 HOTRG, periodic isotropic cubic 3D",
+  "settings": {
+    "cutoff": 1e-12,
+    "canonize": false,
+    "strip_exponent": true,
+    "optimize": "greedy",
+    "sequence": [
+      "x",
+      "y",
+      "z"
+    ],
+    "threads": 2
+  },
+  "status": "Not converged. Passing positivity is necessary but does not certify accuracy. No bulk correlation length inferred.",
+  "runs": [
+    {
+      "L": 3,
+      "physical_spins": 81,
+      "chi": 2,
+      "norm_sign": -1,
+      "log10_abs_norm": -59.99962305761835,
+      "seconds": 49.6,
+      "passes_necessary_positivity_bound": false,
+      "positivity_certificate": {
+        "covering_dimension": 35,
+        "trimer_field_rank": 8,
+        "simple_log10_norm_lower_bound": 0.0620159361203072,
+        "trimer_histogram": {
+          "9": 12,
+          "11": 54,
+          "13": 108,
+          "15": 54,
+          "19": 27,
+          "27": 1
+        },
+        "axis_color_amplitude": 2.8824688453615344,
+        "log10_axis_color_norm_lower_bound": 0.9195292439989089
+      },
+      "correlation_length": null
+    },
+    {
+      "L": 3,
+      "physical_spins": 81,
+      "chi": 4,
+      "norm_sign": 1,
+      "log10_abs_norm": 10.948150365851944,
+      "seconds": 135.38142273899985,
+      "passes_necessary_positivity_bound": true,
+      "positivity_certificate": {
+        "covering_dimension": 35,
+        "trimer_field_rank": 8,
+        "simple_log10_norm_lower_bound": 0.0620159361203072,
+        "trimer_histogram": {
+          "9": 12,
+          "11": 54,
+          "13": 108,
+          "15": 54,
+          "19": 27,
+          "27": 1
+        },
+        "axis_color_amplitude": 2.8824688453615344,
+        "log10_axis_color_norm_lower_bound": 0.9195292439989089
+      },
+      "correlation_length": null
+    },
+    {
+      "L": 3,
+      "physical_spins": 81,
+      "chi": 8,
+      "norm_sign": 1,
+      "log10_abs_norm": 11.956534995148651,
+      "seconds": 180.43231945499974,
+      "passes_necessary_positivity_bound": true,
+      "positivity_certificate": {
+        "covering_dimension": 35,
+        "trimer_field_rank": 8,
+        "simple_log10_norm_lower_bound": 0.0620159361203072,
+        "trimer_histogram": {
+          "9": 12,
+          "11": 54,
+          "13": 108,
+          "15": 54,
+          "19": 27,
+          "27": 1
+        },
+        "axis_color_amplitude": 2.8824688453615344,
+        "log10_axis_color_norm_lower_bound": 0.9195292439989089
+      },
+      "correlation_length": null
+    },
+    {
+      "L": 4,
+      "physical_spins": 192,
+      "chi": 2,
+      "norm_sign": 1,
+      "log10_abs_norm": 9.16095972756229,
+      "seconds": 145.60309491799944,
+      "passes_necessary_positivity_bound": true,
+      "positivity_certificate": {
+        "covering_dimension": 75,
+        "trimer_field_rank": 27,
+        "simple_log10_norm_lower_bound": -4.647180674956012
+      },
+      "correlation_length": null
+    }
+  ],
+  "reproduction": "OPENBLAS_NUM_THREADS=2 OMP_NUM_THREADS=2 NUMBA_NUM_THREADS=2 python scripts/probe_octahedral_spin1_bulk_norm.py --L 3 --chi 8 --output results/octahedral-spin1-bulk/L3-chi8.json",
+  "incomplete_runs": [
+    {
+      "L": 2,
+      "chi": 2,
+      "force_first_step": true,
+      "seconds_approximately": 360,
+      "status": "Stopped while computing reduced-factor eigendecomposition; no numerical result."
+    },
+    {
+      "L": 4,
+      "chi": 4,
+      "seconds_approximately": 465,
+      "status": "Stopped after first x coarse-graining, during y step; no final numerical result. Prioritized physical-observable and Monte Carlo probes."
+    }
+  ]
+}

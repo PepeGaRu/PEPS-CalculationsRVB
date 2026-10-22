@@ -1,0 +1,138 @@
+{
+  "source": "New calculations in this repository; no digitized paper curves",
+  "state": "Equal amplitudes of all perfect singlet coverings with cyclic triangle singlets and positive E/N-oriented dummy singlets; both dummy halves locally covered or paired across dummy link.",
+  "distance_unit": "Simulation-cell translation: one small square per cell; along a diagonal of the dummy-contracted square graph",
+  "scalar_decay_description": "Characteristic scale 0.8\u20130.9 cells; finite-distance estimate, not a precise bulk limit",
+  "selected_ctm": "chi64_cutoff1e-14_mult1e-18.json",
+  "fit_window": {
+    "segment": 0,
+    "branch": "all",
+    "requested_window": [
+      12.0,
+      18.0
+    ],
+    "used_distances": [
+      12.0,
+      13.0,
+      14.0,
+      15.0,
+      16.0,
+      17.0,
+      18.0
+    ],
+    "npoints": 7,
+    "models": {
+      "power_law": {
+        "status": "ok",
+        "minimum_points": 4,
+        "p": 18.12315079314643,
+        "inverse_xi": 0.0,
+        "xi": null,
+        "log_amplitude": 25.78735699117936,
+        "log_rms": 0.13613952475844204,
+        "condition": 1.0,
+        "rank": 2,
+        "physical_decay": true
+      },
+      "exponential": {
+        "status": "ok",
+        "minimum_points": 4,
+        "p": 0.0,
+        "inverse_xi": 1.224995272027809,
+        "xi": 0.8163296812930873,
+        "log_amplitude": -4.752453552694838,
+        "log_rms": 0.007028812170167907,
+        "condition": 1.0,
+        "rank": 2,
+        "physical_decay": true
+      },
+      "power_exponential": {
+        "status": "ok",
+        "minimum_points": 6,
+        "p": 0.8908239271489931,
+        "inverse_xi": 1.164977451475749,
+        "xi": 0.8583857127305239,
+        "log_amplitude": -3.2483696008151703,
+        "log_rms": 0.00020944509299366217,
+        "condition": 34.19972714923028,
+        "rank": 3,
+        "physical_decay": true
+      }
+    }
+  },
+  "orthogonal_opposite_triangle_pairs": {
+    "reference_triangle": "E, ring-ring bond in cell (0,0)",
+    "translated_triangle": "W, ring-ring bond in cell (r,0)",
+    "distance": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6
+    ],
+    "exact_connected_fractions": [
+      "0",
+      "1/16",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0"
+    ]
+  },
+  "exact_cylinder_lengths": [
+    {
+      "width": 2,
+      "sector": "even",
+      "bond_xi": 0.9067043897550048
+    },
+    {
+      "width": 3,
+      "sector": "even",
+      "bond_xi": 0.7894403049995946
+    },
+    {
+      "width": 4,
+      "sector": "even",
+      "bond_xi": 0.8349390090828648
+    },
+    {
+      "width": 2,
+      "sector": "odd",
+      "bond_xi": 0.8359451336757601
+    },
+    {
+      "width": 3,
+      "sector": "odd",
+      "bond_xi": 0.5936649991727035
+    },
+    {
+      "width": 4,
+      "sector": "odd",
+      "bond_xi": 0.6221566882012065
+    }
+  ],
+  "absolute_plot_floor": 1e-13,
+  "largest_distance_in_plane_figures": 18,
+  "input_sha256": {
+    "results/octagon-square/ctmrg/summary.json": "17b7cfcf926635d587a2d952bfe65bf4fa54c796ee811a2458b00f9c10ddf5ba",
+    "results/octagon-square/ctmrg/chi64_cutoff1e-14_mult1e-18.json": "40e38ce2b251306603a5185b41dadbdc55d526d3c376a10ae84aa743d1158e6e",
+    "results/octagon-square/ctmrg/chi64_cutoff1e-12_mult1e-18.json": "b7e9f70cf26af7d0ec6b1a9515b65aecf2f48fe02cba5bfe600694d035846730",
+    "results/octagon-square/orthogonal.json": "4ea84bb02aa746edb7d17164780d9f2bff3861324c796b1e1a91f874ceb44612",
+    "results/octagon-square/cylinders/width2-even.json": "5c4e5851daca523aeb5de6a13d4f1c70107ebeb21104a8c20fec19289a5effbb",
+    "results/octagon-square/cylinders/width3-even.json": "22ce2979c49c1be9c3596f5ae1637eb6053e4cea559f5c4c18d36b941ef1b1f5",
+    "results/octagon-square/cylinders/width4-even.json": "f13fbe6fec76b9ac38845ab1465a6a9372ba033c440e3eb90493f02a2a3cb786",
+    "results/octagon-square/cylinders/width2-odd.json": "fa12e68023c6d86d3cbc22eb7055fcc99be93141493412b2821072ec0f0f41bd",
+    "results/octagon-square/cylinders/width3-odd.json": "e0126cd1ef0391080faaf31e4c36c5d613c2ca933a8723e7086660f1ed3256a8",
+    "results/octagon-square/cylinders/width4-odd.json": "5551ecedd0aac37387c97454b34a925db46737848d807e00b1d8e15ba36b13d3"
+  },
+  "plot_script_sha256": "6cf66355c9684596b66f40d0a81c947fe6462e94c9ba9206e5d879f18fc87500",
+  "limitations": [
+    "Environment and projector truncation are approximate even when CTM iterations converge.",
+    "Relative projector cutoff changes the late correlations by several percent.",
+    "Exact-cylinder results have unresolved circumference and sector dependence.",
+    "Local physical bond, orthogonal occupation, and nonlocal loop-connectivity observables differ."
+  ]
+}

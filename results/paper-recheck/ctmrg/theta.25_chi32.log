@@ -1,0 +1,26 @@
+/workspace/peps-environment/upstream/peps-torch/ipeps/tensor_io.py:8: Warning: yast not available
+  warnings.warn("yast not available", Warning)
+Warning: Missing arrayfire. SVDAF is not available.
+Warning: Missing arrayfire. SVDAF is not available.
+Warning: Missing cuquantum.
+Warning: Missing arrayfire. SVDAF is not available.
+CTMRG iteration=1 corner_spectrum_residual=inf
+CTMRG iteration=2 corner_spectrum_residual=0.0936331
+CTMRG iteration=3 corner_spectrum_residual=0.00243326
+CTMRG iteration=4 corner_spectrum_residual=0.000244883
+CTMRG iteration=5 corner_spectrum_residual=4.53548e-05
+CTMRG iteration=6 corner_spectrum_residual=8.62739e-06
+CTMRG iteration=7 corner_spectrum_residual=1.57772e-06
+CTMRG iteration=8 corner_spectrum_residual=2.79156e-07
+CTMRG iteration=9 corner_spectrum_residual=4.8426e-08
+CTMRG iteration=10 corner_spectrum_residual=8.29348e-09
+CTMRG iteration=11 corner_spectrum_residual=1.41036e-09
+CTMRG iteration=12 corner_spectrum_residual=2.3781e-10
+CTMRG iteration=13 corner_spectrum_residual=4.39451e-11
+OBS zz_01_x mean=-0.255586400804 connected=-0.00797702,-0.000473101,-3.03996e-05,-2.16291e-06,-1.89829e-07,-1.86932e-08,-1.87033e-09,-1.87666e-10,-1.89686e-11,-1.94182e-12,-2.01773e-13,-2.1285e-14
+OBS zz_01_y mean=-0.255586400804 connected=0.00601619,0.000810082,8.61603e-05,9.39125e-06,1.04394e-06,1.19325e-07,1.38465e-08,1.61945e-09,1.90059e-10,2.23356e-11,2.62612e-12,3.08802e-13
+OBS zz_02_x mean=-0.255586370974 connected=0.00601619,0.000810082,8.61602e-05,9.39124e-06,1.04394e-06,1.19325e-07,1.38465e-08,1.61945e-09,1.90058e-10,2.23356e-11,2.62612e-12,3.08802e-13
+OBS zz_02_y mean=-0.255586370974 connected=-0.00797702,-0.000473099,-3.03995e-05,-2.1629e-06,-1.89828e-07,-1.86931e-08,-1.87032e-09,-1.87665e-10,-1.89685e-11,-1.94181e-12,-2.01772e-13,-2.12849e-14
+OBS zz_12_x mean=-0.255586512943 connected=0.00601661,0.00080952,8.60508e-05,9.37739e-06,1.04228e-06,1.19128e-07,1.38233e-08,1.61673e-09,1.8974e-10,2.22983e-11,2.62175e-12,3.0829e-13
+OBS zz_12_y mean=-0.255586512943 connected=0.00601662,0.000809518,8.60506e-05,9.37738e-06,1.04227e-06,1.19128e-07,1.38233e-08,1.61673e-09,1.89739e-10,2.22982e-11,2.62174e-12,3.08289e-13
+Saved /workspace/PEPS-CalculationsRVB/results/paper-recheck/ctmrg/theta0.25_chi32.json; CTMRG converged=True; total_seconds=1.075

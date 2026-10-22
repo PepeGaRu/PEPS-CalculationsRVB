@@ -1,0 +1,10 @@
+{
+  "tests_passed": 89,
+  "test_command": "python -m pytest -q",
+  "warnings": "264 upstream quimb NumPy shape deprecation warnings; no failures",
+  "paper_version": "1009.1307v2",
+  "paper_sha256": "3a1036821a430a4d254991f2b1d45f7ba7156d247b162489287a70cd9dd23be3",
+  "paper_source": "User-uploaded PDF, retained outside repository at /workspace/peps-environment/papers/1009.1307v2.pdf",
+  "new_ctmrg_runs": false,
+  "validation_scope": "New diagnostic API plus existing tensor/exact benchmark suite; does not establish bulk convergence"
+}

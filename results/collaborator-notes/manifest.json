@@ -1,0 +1,25 @@
+{
+  "revision": 3,
+  "pages": 4,
+  "pdf_bytes": 469285,
+  "pdf_sha256": "d261597fc61482666332a99d2eb9c91c442a0067c52bc902232c0f0188f134a1",
+  "new_large_simulations": false,
+  "checks": [
+    "All four pages visually inspected",
+    "All 96 ownership arrows drawn and inspected",
+    "Sixteen local supports and all 256 pairwise XORs validated",
+    "Figure 6 contains only panels a and b",
+    "Section headings removed; all references collected at the end",
+    "No overfull or underfull TeX boxes",
+    "Source bundle compiled independently into four pages"
+  ],
+  "figure_files": [
+    "upright-geometry.pdf",
+    "dummy-covering-table.pdf",
+    "corrected-mapping-upright.pdf",
+    "correlations-2d.pdf",
+    "geometry-origin.pdf",
+    "octahedral-catalogue.pdf",
+    "layer-relation.pdf"
+  ]
+}

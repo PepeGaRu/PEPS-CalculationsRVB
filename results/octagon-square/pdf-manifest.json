@@ -1,0 +1,18 @@
+{
+  "pdf": "Square_Octagon_RVB_Coverings_and_Correlations.pdf",
+  "pages": 9,
+  "bytes": 525420,
+  "sha256": "f4a2ba7571317473666a61649c8fd5b505a1b1fddd0aad2480d192749620717b",
+  "source_figures": {
+    "spin-lattice.pdf": "6cf164d899db96df1a8bdc49da3c39d5b62d27e18e33414ff21b81ac20ddbfa0",
+    "spin-unit-cell.pdf": "399a963542ae5e8e3556175e3232068b9e30e5c1ebd52beeea971dadf2ead758",
+    "dummy-link-states.pdf": "8d4193d5f7ab564c55b7ed7e8f6d3c9386c088a11bd42680a988a34c1b2cff7b",
+    "mapping-singlets.pdf": "1b6d6a1705c0dd596b2c59bca601647bcfd83b306ee24e96fb4ff6384d435094",
+    "dummy-contraction.pdf": "0405e731151affa85ebcc11635505e16977697acdd3cd57975c39f19cbe054f4",
+    "correlations.pdf": "ce294e1a6a7e6c61d75971ca48076637994dd557a9f3624ab1c27873090bd018",
+    "decay-diagnostics.pdf": "dd3da51609ab18519b360ac66ea5cf0214abf628979d966893c7cd6342314245",
+    "cylinder-lengths.pdf": "af0a5268a5e32008d12455ab5e40e7c462776031cdbf3dd477722190bcfd301b"
+  },
+  "numerical_provenance": "figure-summary.json",
+  "new_simulations_run_for_this_pdf": false
+}

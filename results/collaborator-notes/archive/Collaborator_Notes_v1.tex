@@ -1,0 +1,215 @@
+\documentclass[10pt,a4paper]{article}
+\usepackage[margin=15mm,top=14mm,bottom=16mm]{geometry}
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage{lmodern,microtype,amsmath,amssymb,graphicx,booktabs,array,xcolor}
+\usepackage[font=small,labelfont=bf,skip=4pt]{caption}
+\usepackage[colorlinks=true,urlcolor=blue!50!black,linkcolor=blue!50!black]{hyperref}
+\hypersetup{pdftitle={Singlet coverings in two and three dimensions},
+  pdfsubject={Square--octagon RVB, octochlore coverings, and a possible layer construction}}
+\usepackage{fancyhdr}
+\pagestyle{fancy}
+\fancyhf{}
+\renewcommand{\headrulewidth}{0pt}
+\fancyfoot[L]{\footnotesize Singlet coverings: collaborator notes \quad 22 October 2026}
+\fancyfoot[R]{\footnotesize\thepage/3}
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{5pt}
+\setlength{\abovedisplayskip}{5pt}
+\setlength{\belowdisplayskip}{5pt}
+\setlength{\textfloatsep}{5pt}
+\newcommand{\sect}[1]{\vspace{5pt}{\large\bfseries\color{blue!45!black}#1}\par\vspace{2pt}}
+\newcommand{\ket}[1]{\lvert#1\rangle}
+\newcommand{\eps}{\epsilon}
+\newcommand{\xor}{\mathbin{\oplus}}
+\begin{document}
+
+{\LARGE\bfseries Singlet coverings in two and three dimensions}\par
+{\normalsize Square--octagon RVB, octochlore coverings, and a possible layer construction}
+
+\sect{1. Two-dimensional model and the two dummy-link arrangements}
+The underlying graph is the trivalent square--octagon lattice. Its gray squares $P$ are
+drawn upright; a physical spin $1/2$ sits at the midpoint of each square edge
+(blue). Each dummy link carries \emph{two} distinct endpoint spins (orange).
+The three slots around a graph vertex form a triangle, which contains zero or
+one singlet. Every physical spin is covered exactly once globally.
+
+\begin{center}
+\includegraphics[width=.93\linewidth]{upright-geometry.pdf}
+\end{center}
+\vspace{-6pt}
+\captionof{figure}{Gray lines define the base graph; green triangle edges are allowed
+singlet bonds. The gray squares have blue spins on their edges. A cell contains
+four blue spins and four orange endpoint spins.}
+
+On a dummy link either its two endpoint spins form an \textbf{internal singlet},
+or \textbf{both endpoints pair into their own triangles}. There is no singly
+occupied case and no free spin. For the internal case each neighbouring triangle
+may be empty or contain its blue--blue singlet: four possibilities. For the
+external case each endpoint chooses one of two blue spins: another four.
+
+\begin{center}
+\includegraphics[width=\linewidth]{dummy-covering-table.pdf}
+\end{center}
+\vspace{-6pt}
+\captionof{table}{All eight local completions and their square-vertex loop patterns.
+Green segments are singlets; dotted green continuations pair a blue spin in its
+other triangle. After contraction the ports are $a=N$, $b=W$, $c=E$, $d=S$.
+The displayed bits are relative to the representative local reference $0000$,
+with the orange spins internally paired. This reference extends to a global covering.}
+
+Writing $a,b,c,d=1$ when an ordinary slot is used in its displayed triangle, and
+$t=1$ when a dummy endpoint is used there, the local constraints are
+\[
+ a\xor b=t=c\xor d,
+ \qquad a\xor b\xor c\xor d=0.
+\]
+In this representative reference these are also the loop bits. For any other
+reference, first take the difference of ownership bits modulo two.
+
+The conventional RVB state sums the normalized singlet products with equal coefficients:
+\[
+ \ket{\Psi_{2D}}=\mathcal N^{-1/2}\sum_{D\ {m allowed}}\ket{D},
+ \qquad
+ \ket{s_{ij}}=\frac{\ket{\uparrow_i\downarrow_j}-\ket{\downarrow_i\uparrow_j}}{\sqrt2}.
+\]
+Singlet arrows run counterclockwise around each triangle; dummy arrows follow
+the positive simulation axes. This fixes relative phases. No additional loop-number
+sign is included. Equal coefficients do not make overlapping singlet coverings orthogonal.
+
+\newpage
+\sect{2. Coverings $\longrightarrow$ loops $\longrightarrow$ the square lattice}
+Choose one valid reference covering. An ordinary-edge spin has exactly one owner;
+the two dummy endpoints are either both used by triangles or neither is. Ownership
+differences agree at both ends of every edge and have even parity at each base vertex.
+Since the base graph has degree three, the selected edges form closed loops [1].
+
+\begin{center}
+\includegraphics[width=\linewidth]{corrected-mapping-upright.pdf}
+\end{center}
+\vspace{-6pt}
+\captionof{figure}{One checked covering and its reference-relative loops. The relevant
+gray squares are upright in \emph{all three panels}. The reference has internal dummy
+singlets and alternating occupied/empty triangles around each square. Boundary singlet
+stubs continue periodically. Dummy edges shrink to vertices; square edges survive.}
+
+Here ``cutting/erasing'' a dummy edge means \textbf{contracting its two graph endpoints},
+not deleting its physical spins from the RVB state. The result is the regular square
+graph. Writing $n$ for reference-difference bits, the erased bit is recovered as
+$n_{\rm dummy}=n_a\xor n_b=n_c\xor n_d$, so the map is a
+bijection of even-edge configurations, including winding sectors. At a four-leg
+vertex retain the inherited $a$--$b$, $c$--$d$ routing shown in Table~1.
+These reference loops label coverings; bra--ket transition loops instead determine
+singlet overlaps. Consequently the map alone does not determine quantum correlations.
+
+\sect{3. Bond correlations: numerical evidence and diagnosis}
+We measure the connected physical bond covariance
+$C_B(r)=\langle B_0B_r\rangle-\langle B_0\rangle\langle B_r\rangle$,
+$B=\mathbf S_i\!\cdot\!\mathbf S_j$, for a square-edge-spin bond inside a triangle.
+It equals the connected covariance of the singlet projector $1/4-B$.
+
+\begin{center}
+\includegraphics[width=\linewidth]{correlations-2d.pdf}
+\end{center}
+\vspace{-6pt}
+\captionof{figure}{Our model's computed bond correlations, not published curves.
+An exact $D=3$ PEPS is contracted with infinite-plane CTMRG ($\chi=64$), comparing
+two truncation cutoffs. Shading at left marks the fit window $r=12$--18.}
+
+Following PEPS boundary and sector diagnostics [2,3], we compare cutoffs, fit windows,
+and exact finite-cylinder checks. Within each fixed parity sector, transfer modes
+coupled to $B$ give $\xi_a=-1/\log|\lambda_a/\lambda_0|$.
+Fits to $Ae^{-r/\xi}$ and $Ar^{-p}e^{-r/\xi}$ give
+$\xi=0.82$ and $0.86$ cells. The local inverse length
+$\kappa_{\rm eff}=\log|C_B(r)/C_B(r+1)|$ tends to $1/\xi>0$ for an exponential
+and to zero for a pure power law. The resolved data support a short exponential-like
+scale, \textbf{$\xi\sim0.8$--$0.9$ simulation-cell translations}; an 8\% cutoff
+change at $r=18$ prevents a precise bulk claim. One translation is a diagonal
+$(1,-1)$ step on the upright contracted grid. Orthogonal-covering occupation
+correlations instead have exactly finite range; they are a different observable and state.
+
+{\footnotesize
+[1] M.~Iqbal, D.~Poilblanc and N.~Schuch, \emph{Semionic resonating valence bond states}
+(2014), \href{https://arxiv.org/abs/1407.7773}{arXiv:1407.7773}. Reference-arrow construction;
+our state has no semionic sign.\par
+[2] N.~Schuch et al., \emph{Resonating valence bond states in the PEPS formalism}
+(2012), \href{https://arxiv.org/abs/1203.4816}{arXiv:1203.4816}.\par
+[3] D.~Poilblanc et al., \emph{Topological and entanglement properties of resonating
+valence bond wave functions} (2012), \href{https://arxiv.org/abs/1202.0947}{arXiv:1202.0947}.
+The papers motivate the diagnostics; they do not calculate this square--octagon model.}
+
+\newpage
+\sect{4. Three-dimensional octochlore covering model}
+Octahedron centres form a simple-cubic lattice, $v\in\mathbb Z^3$, with physical
+sites at the shared corners $v\pm\hat e_\mu/2$. Centres are not spin sites [4].
+A diameter dimer joins opposite vertices; a trimer occupies one of eight triangular
+faces. Every site has exactly one owner. The local catalogue from the supplied notes is
+\begin{center}
+\begin{tabular}{@{}p{.54\linewidth}cl@{}}
+\toprule
+Allowed local objects & Number & Incoming support \\
+\midrule
+Any subset of $D_x,D_y,D_z$ & $1+3+3+1=8$ & Unions of opposite pairs \\
+Exactly one face trimer & $8$ & One site from each axis pair \\
+\bottomrule
+\end{tabular}
+\end{center}
+Two complementary trimers are excluded: otherwise the all-six-incoming support
+would cease to specify a unique covering. Diameter chords may cross at a centre,
+which carries no spin. With ownership bits $a^{\pm}_{v,\mu}$, the sixteen supports obey
+\[
+ a^+_{v,x}\xor a^-_{v,x}
+ =a^+_{v,y}\xor a^-_{v,y}
+ =a^+_{v,z}\xor a^-_{v,z}.
+\]
+
+For the quantum extension put \textbf{spin 1} at every site. In the Cartesian basis,
+the normalized two- and three-spin singlets are
+\[
+ d_{\alpha\beta}=\delta_{\alpha\beta}/\sqrt3,
+ \qquad t_{\alpha\beta\gamma}=\eps_{\alpha\beta\gamma}/\sqrt6,
+ \qquad \ket{\Psi_{3D}}\propto\sum_{C\ {m allowed}}\ket{C}.
+\]
+Order every trimer by its $x,y,z$ vertices, independent of face signs; this fixes
+its antisymmetric phase. This is a specified trial state, with no assumed parent
+Hamiltonian. Current finite-box spin calculations reach $6^3$ centres (648 spins),
+but do not yet establish a bulk correlation length.
+
+\sect{5. Layer geometry and a route to investigate foliation}
+\begin{center}
+\includegraphics[width=\linewidth]{layer-relation.pdf}
+\end{center}
+\vspace{-6pt}
+\captionof{figure}{Equatorial perimeter edges of one $z$ layer form a square graph.
+Splitting each shared corner into two base vertices joined by a dummy edge gives
+square--octagon. Contracting the dummy edges reverses the construction.}
+
+This is an exact \textbf{geometric resolution of the equatorial layer}, rather than
+a literal projection of all octahedron edges: the apices and their spokes have been
+omitted. The equatorial square graph has physical spins at its vertices. The split
+vertices in the last panel are graph vertices; the triangle-decorated 2D model places
+its physical spins on the associated slots. This operation alone is not a spin-space map.
+
+There is also a useful \textbf{planar constraint relation}. For differences $n_e$
+from a fixed 3D reference covering, define
+$p_\mu=n_{+\mu}\xor n_{-\mu}$. The cage rule $p_x=p_y=p_z$ gives an even edge
+pattern in every coordinate plane of the \emph{cubic-centre graph}. Vertical parity
+couples these planes: an $xy$-plane turn has $p_x=p_y=1$ and requires odd vertical
+incidence. Two matching plaquette loops on adjacent planes, joined by four vertical
+corner edges, form an allowed cube cage. A lone planar plaquette does not.
+
+These facts motivate a layer construction, but \textbf{quantum foliation remains a
+proposal}. It requires an explicit state map and interlayer coupling, matching
+amplitudes and singlet phases. In particular, the 3D spin-1 space and 2D spin-$1/2$
+slots differ: representing spin 1 by a symmetric pair does not accommodate the
+antisymmetric internal dummy singlet of the 2D model.
+
+{\footnotesize
+Source of the sixteen-state rule: J.~Garre Rubio, \emph{Put the objects on octahedra /
+Octahedral coverings and X-cube cage nets}, supplied notes, 19 October 2026.\par
+[4] O.~Benton and R.~Moessner, \emph{Topological Route to New and Unusual Coulomb Spin
+Liquids}, Phys.~Rev.~Lett.~127, 107202 (2021),
+\href{https://arxiv.org/abs/2103.10817}{arXiv:2103.10817}. Geometry reference;
+the sixteen-state rule and the singlet extension are specified above.}
+
+\end{document}

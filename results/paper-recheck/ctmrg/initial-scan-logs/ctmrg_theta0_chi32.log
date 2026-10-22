@@ -1,0 +1,38 @@
+/workspace/peps-environment/upstream/peps-torch/ipeps/tensor_io.py:8: Warning: yast not available
+  warnings.warn("yast not available", Warning)
+Warning: Missing arrayfire. SVDAF is not available.
+Warning: Missing arrayfire. SVDAF is not available.
+Warning: Missing cuquantum.
+Warning: Missing arrayfire. SVDAF is not available.
+CTMRG iteration=1 corner_spectrum_residual=inf
+CTMRG iteration=2 corner_spectrum_residual=0.129219
+CTMRG iteration=3 corner_spectrum_residual=0.0131943
+CTMRG iteration=4 corner_spectrum_residual=0.00283241
+CTMRG iteration=5 corner_spectrum_residual=0.0466868
+CTMRG iteration=6 corner_spectrum_residual=0.000687134
+CTMRG iteration=7 corner_spectrum_residual=9.04365e-05
+CTMRG iteration=8 corner_spectrum_residual=2.25161e-05
+CTMRG iteration=9 corner_spectrum_residual=6.35942e-06
+CTMRG iteration=10 corner_spectrum_residual=1.80659e-06
+CTMRG iteration=11 corner_spectrum_residual=5.11808e-07
+CTMRG iteration=12 corner_spectrum_residual=1.44671e-07
+CTMRG iteration=13 corner_spectrum_residual=4.0783e-08
+CTMRG iteration=14 corner_spectrum_residual=1.15332e-08
+CTMRG iteration=15 corner_spectrum_residual=3.22619e-09
+CTMRG iteration=16 corner_spectrum_residual=9.23167e-10
+CTMRG iteration=17 corner_spectrum_residual=2.74602e-10
+CTMRG iteration=18 corner_spectrum_residual=1.28066e-10
+CTMRG iteration=19 corner_spectrum_residual=5.09674e-11
+OBS zz_01_x mean=-0.262082131656 connected=-0.0182623,-0.00131696,-0.00017222,-2.24797e-05,-3.40182e-06,-5.36419e-07,-8.61029e-08,-1.4008e-08,-2.31483e-09,-3.90149e-10,-6.72737e-11,-1.18892e-11
+OBS zz_01_y mean=-0.262082131656 connected=0.0124875,0.00248213,0.000451484,8.87712e-05,1.79321e-05,3.70256e-06,7.7048e-07,1.60831e-07,3.3593e-08,7.01572e-09,1.46471e-09,3.05694e-10
+OBS zz_02_x mean=-0.262082131714 connected=0.0124875,0.00248213,0.000451484,8.87712e-05,1.79321e-05,3.70256e-06,7.7048e-07,1.60831e-07,3.3593e-08,7.01572e-09,1.46471e-09,3.05694e-10
+OBS zz_02_y mean=-0.262082131714 connected=-0.0182623,-0.00131696,-0.00017222,-2.24797e-05,-3.40182e-06,-5.36419e-07,-8.61029e-08,-1.4008e-08,-2.31483e-09,-3.90149e-10,-6.72737e-11,-1.18892e-11
+OBS zz_12_x mean=-0.262082132187 connected=0.0124875,0.00248217,0.000451451,8.8764e-05,1.79309e-05,3.70234e-06,7.70435e-07,1.60822e-07,3.35911e-08,7.01533e-09,1.46463e-09,3.05678e-10
+OBS zz_12_y mean=-0.262082132187 connected=0.0124875,0.00248217,0.000451451,8.8764e-05,1.79309e-05,3.70234e-06,7.70435e-07,1.60822e-07,3.35911e-08,7.01533e-09,1.46463e-09,3.05678e-10
+OBS ss_01_x mean=-0.196561598742 connected=-0.0102137,-0.000740672,-9.68734e-05,-1.26448e-05,-1.91352e-06,-3.01736e-07,-4.84329e-08,-7.87949e-09,-1.30209e-09,-2.19459e-10,-3.78415e-11,-6.6877e-12
+OBS ss_01_y mean=-0.196561598742 connected=0.00702414,0.0013962,0.00025396,4.99338e-05,1.00868e-05,2.08269e-06,4.33395e-07,9.04676e-08,1.8896e-08,3.94634e-09,8.23897e-10,1.71953e-10
+OBS ss_02_x mean=-0.196561598785 connected=0.00702414,0.0013962,0.00025396,4.99338e-05,1.00868e-05,2.08269e-06,4.33395e-07,9.04676e-08,1.8896e-08,3.94634e-09,8.23897e-10,1.71953e-10
+OBS ss_02_y mean=-0.196561598785 connected=-0.0102137,-0.000740672,-9.68734e-05,-1.26448e-05,-1.91352e-06,-3.01736e-07,-4.84329e-08,-7.87949e-09,-1.30209e-09,-2.19459e-10,-3.78415e-11,-6.6877e-12
+OBS ss_12_x mean=-0.19656159914 connected=0.00702414,0.00139622,0.000253941,4.99297e-05,1.00861e-05,2.08256e-06,4.3337e-07,9.04625e-08,1.8895e-08,3.94612e-09,8.23852e-10,1.71944e-10
+OBS ss_12_y mean=-0.19656159914 connected=0.00702414,0.00139622,0.000253941,4.99297e-05,1.00861e-05,2.08256e-06,4.3337e-07,9.04625e-08,1.8895e-08,3.94612e-09,8.23852e-10,1.71944e-10
+Saved /workspace/PEPS-CalculationsRVB/results/paper-recheck/ctmrg/theta0_chi32.json; CTMRG converged=True; total_seconds=1.781

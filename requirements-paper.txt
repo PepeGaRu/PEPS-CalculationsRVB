@@ -1,0 +1,2 @@
+# Optional PDF audit and published-figure extraction; no simulation dependency.
+pypdf==6.21.1

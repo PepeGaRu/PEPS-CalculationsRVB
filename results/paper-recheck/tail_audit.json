@@ -1,0 +1,3854 @@
+{
+  "scope": "Independent reanalysis of saved upstream correlations; no rerun, extrapolation, or asymptotic claim.",
+  "absolute_plot_floor": 1e-13,
+  "floor_caveat": "Conservative plotting/fitting floor for subtraction of O(0.04) float64 correlators; not a rigorous CTMRG error bound.",
+  "kagome": [
+    {
+      "chi": 18,
+      "source": "results/upstream/kagome_chi18.json",
+      "sha256": "e11104fb3d0fee8cce5c949099e908e15e526eb6e4a358f3c1b84ae577366345",
+      "ctm_converged": true,
+      "ctm_residual": 7.328799304493476e-11,
+      "generic_transfer_lengths": {
+        "spectrum(T)[(0, 0),(1, 0)]": 1.0148634906868024,
+        "spectrum(T)[(0, 0),(0, 1)]": 1.0148634085097163
+      },
+      "observables": {
+        "DD_intra[(0, 0),(1, 0)]": {
+          "operator": "physical S_i dot S_j",
+          "onepoint_difference_to_energy_based_mean_at_max_r": -8.913997832926679e-07,
+          "spurious_offset_if_subtract_energy_based_mean": 9.516727048075602e-08,
+          "covariance_reconstruction_max_error": 0.0,
+          "fits": [
+            {
+              "window": [
+                1,
+                4
+              ],
+              "distances": [
+                1,
+                2,
+                3,
+                4
+              ],
+              "parity": null,
+              "xi": 0.6032514949345357,
+              "log_rms_residual": 0.02122536520031058,
+              "max_fractional_fit_error": 0.032250550253402954,
+              "min_abs_correlation": 4.957166639008026e-05,
+              "all_points_above_conservative_floor": true
+            },
+            {
+              "window": [
+                2,
+                8
+              ],
+              "distances": [
+                2,
+                3,
+                4,
+                5,
+                6,
+                7,
+                8
+              ],
+              "parity": null,
+              "xi": 0.6234963525513898,
+              "log_rms_residual": 0.04628789493524154,
+              "max_fractional_fit_error": 0.08675546394754097,
+              "min_abs_correlation": 8.941665245038033e-08,
+              "all_points_above_conservative_floor": true
+            },
+            {
+              "window": [
+                4,
+                10
+              ],
+              "distances": [
+                4,
+                5,
+                6,
+                7,
+                8,
+                9,
+                10
+              ],
+              "parity": null,
+              "xi": 0.6351851195697156,
+              "log_rms_residual": 0.00946866073765734,
+              "max_fractional_fit_error": 0.017666709141766823,
+              "min_abs_correlation": 3.881029345120801e-09,
+              "all_points_above_conservative_floor": true
+            },
+            {
+              "window": [
+                6,
+                12
+              ],
+              "distances": [
+                6,
+                7,
+                8,
+                9,
+                10,
+                11,
+                12
+              ],
+              "parity": null,
+              "xi": 0.6372841596398717,
+              "log_rms_residual": 0.0008077941450674935,
+              "max_fractional_fit_error": 0.0015256877784737277,
+              "min_abs_correlation": 1.6827628873672396e-10,
+              "all_points_above_conservative_floor": true
+            },
+            {
+              "window": [
+                8,
+                14
+              ],
+              "distances": [
+                8,
+                9,
+                10,
+                11,
+                12,
+                13,
+                14
+              ],
+              "parity": null,
+              "xi": 0.6373018411866985,
+              "log_rms_residual": 0.0004460065778363593,
+              "max_fractional_fit_error": 0.0006304016126990053,
+              "min_abs_correlation": 7.288974979147156e-12,
+              "all_points_above_conservative_floor": true
+            },
+            {
+              "window": [
+                10,
+                16
+              ],
+              "distances": [
+                10,
+                11,
+                12,
+                13,
+                14,
+                15,
+                16
+              ],
+              "parity": null,
+              "xi": 0.6371256959442756,
+              "log_rms_residual": 0.00031675265972707956,
+              "max_fractional_fit_error": 0.0005129953453909541,
+              "min_abs_correlation": 3.1558783364360465e-13,
+              "all_points_above_conservative_floor": true
+            }
+          ],
+          "local_effective_decay": [
+            {
+              "distances": [
+                1,
+                2
+              ],
+              "xi": 0.6200034206427669
+            },
+            {
+              "distances": [
+                2,
+                3
+              ],
+              "xi": 0.5835106908432863
+            },
+            {
+              "distances": [
+                3,
+                4
+              ],
+              "xi": 0.6143647619927811
+            },
+            {
+              "distances": [
+                4,
+                5
+              ],
+              "xi": 0.6255497181300207
+            },
+            {
+              "distances": [
+                5,
+                6
+              ],
+              "xi": 0.6335169560646942
+            },
+            {
+              "distances": [
+                6,
+                7
+              ],
+              "xi": 0.6362526338084792
+            },
+            {
+              "distances": [
+                7,
+                8
+              ],
+              "xi": 0.6373155771389064
+            },
+            {
+              "distances": [
+                8,
+                9
+              ],
+              "xi": 0.6375350151053338
+            },
+            {
+              "distances": [
+                9,
+                10
+              ],
+              "xi": 0.6374846498095055
+            },
+            {
+              "distances": [
+                10,
+                11
+              ],
+              "xi": 0.6373598619754535
+            },
+            {
+              "distances": [
+                11,
+                12
+              ],
+              "xi": 0.6372364781625173
+            },
+            {
+              "distances": [
+                12,
+                13
+              ],
+              "xi": 0.6371351188145905
+            },
+            {
+              "distances": [
+                13,
+                14
+              ],
+              "xi": 0.6370569048325602
+            },
+            {
+              "distances": [
+                14,
+                15
+              ],
+              "xi": 0.6370308968552356
+            },
+            {
+              "distances": [
+                15,
+                16
+              ],
+              "xi": 0.6369838162280256
+            }
+          ]
+        },
+        "DD_intra[(0, 0),(0, 1)]": {
+          "operator": "physical S_i dot S_j",
+          "onepoint_difference_to_energy_based_mean_at_max_r": 6.152814999438316e-07,
+          "spurious_offset_if_subtract_energy_based_mean": 1.0922559988413294e-08,
+          "covariance_reconstruction_max_error": 0.0,
+          "fits": [
+            {
+              "window": [
+                1,
+                4
+              ],
+              "distances": [
+                1,
+                2,
+                3,
+                4
+              ],
+              "parity": null,
+              "xi": 0.45233558394937756,
+              "log_rms_residual": 0.16168087640975248,
+              "max_fractional_fit_error": 0.20843100183119845,
+              "min_abs_correlation": 1.2702847993040223e-05,
+              "all_points_above_conservative_floor": true
+            },
+            {
+              "window": [
+                2,
+                8
+              ],
+              "distances": [
+                2,
+                3,
+                4,
+                5,
+                6,
+                7,
+                8
+              ],
+              "parity": null,
+              "xi": 0.5253152422370829,
+              "log_rms_residual": 0.09221612495754877,
+              "max_fractional_fit_error": 0.1518223129927545,
+              "min_abs_correlation": 7.849500563428258e-09,
+              "all_points_above_conservative_floor": true
+            },
+            {
+              "window": [
+                4,
+                10
+              ],
+              "distances": [
+                4,
+                5,
+                6,
+                7,
+                8,
+                9,
+                10
+              ],
+              "parity": null,
+              "xi": 0.5470661853129907,
+              "log_rms_residual": 0.0327167241713739,
+              "max_fractional_fit_error": 0.054197034460077065,
+              "min_abs_correlation": 2.1737219663142682e-10,
+              "all_points_above_conservative_floor": true
+            },
+            {
+              "window": [
+                6,
+                12
+              ],
+              "distances": [
+                6,
+                7,
+                8,
+                9,
+                10,
+                11,
+                12
+              ],
+              "parity": null,
+              "xi": 0.5586389963626566,
+              "log_rms_residual": 0.033485199374045795,
+              "max_fractional_fit_error": 0.052425854368254754,
+              "min_abs_correlation": 6.584344180993185e-12,
+              "all_points_above_conservative_floor": true
+            },
+            {
+              "window": [
+                8,
+                14
+              ],
+              "distances": [
+                8,
+                9,
+                10,
+                11,
+                12,
+                13,
+                14
+              ],
+              "parity": null,
+              "xi": 0.5722684726136017,
+              "log_rms_residual": 0.04069893745529101,
+              "max_fractional_fit_error": 0.0612560871812855,
+              "min_abs_correlation": 2.1994905896605133e-13,
+              "all_points_above_conservative_floor": true
+            },
+            {
+              "window": [
+                10,
+                16
+              ],
+              "distances": [
+                10,
+                11,
+                12,
+                13,
+                14,
+                15,
+                16
+              ],
+              "parity": null,
+              "xi": 0.5881596328508081,
+              "log_rms_residual": 0.04113498746435772,
+              "max_fractional_fit_error": 0.06184356167034699,
+              "min_abs_correlation": 8.056055822436292e-15,
+              "all_points_above_conservative_floor": false
+            }
+          ],
+          "local_effective_decay": [
+            {
+              "distances": [
+                1,
+                2
+              ],
+              "xi": 0.38145078801701726
+            },
+            {
+              "distances": [
+                2,
+                3
+              ],
+              "xi": 0.4900075165164151
+            },
+            {
+              "distances": [
+                3,
+                4
+              ],
+              "xi": 0.49345110307825607
+            },
+            {
+              "distances": [
+                4,
+                5
+              ],
+              "xi": 0.5290272130577792
+            },
+            {
+              "distances": [
+                5,
+                6
+              ],
+              "xi": 0.541107190147338
+            },
+            {
+              "distances": [
+                6,
+                7
+              ],
+              "xi": 0.5458682033815839
+            },
+            {
+              "distances": [
+                7,
+                8
+              ],
+              "xi": 0.5497940336928367
+            },
+            {
+              "distances": [
+                8,
+                9
+              ],
+              "xi": 0.5545721882706892
+            },
+            {
+              "distances": [
+                9,
+                10
+              ],
+              "xi": 0.5607259627696997
+            },
+            {
+              "distances": [
+                10,
+                11
+              ],
+              "xi": 0.5679633975894353
+            },
+            {
+              "distances": [
+                11,
+                12
+              ],
+              "xi": 0.5759574071498881
+            },
+            {
+              "distances": [
+                12,
+                13
+              ],
+              "xi": 0.5843106219094925
+            },
+            {
+              "distances": [
+                13,
+                14
+              ],
+              "xi": 0.5925449920750598
+            }
+          ]
+        }
+      }
+    },
+    {
+      "chi": 32,
+      "source": "results/upstream/kagome_chi32.json",
+      "sha256": "712f63437769d9a22717acb8d794817180f75ca4fe6af3d028782591f67ccd78",
+      "ctm_converged": true,
+      "ctm_residual": 8.094453179334231e-11,
+      "generic_transfer_lengths": {
+        "spectrum(T)[(0, 0),(1, 0)]": 1.0221764601255554,
+        "spectrum(T)[(0, 0),(0, 1)]": 1.0221764602536525
+      },
+      "observables": {
+        "DD_intra[(0, 0),(1, 0)]": {
+          "operator": "physical S_i dot S_j",
+          "onepoint_difference_to_energy_based_mean_at_max_r": 5.839684402708656e-09,
+          "spurious_offset_if_subtract_energy_based_mean": -2.2387993056649513e-09,
+          "covariance_reconstruction_max_error": 0.0,
+          "fits": [
+            {
+              "window": [
+                1,
+                4
+              ],
+              "distances": [
+                1,
+                2,
+                3,
+                4
+              ],
+              "parity": null,
+              "xi": 0.6044648550352345,
+              "log_rms_residual": 0.018822078347618412,
+              "max_fractional_fit_error": 0.028094281311919378,
+              "min_abs_correlation": 4.9933815934613546e-05,
+              "all_points_above_conservative_floor": true
+            },
+            {
+              "window": [
+                2,
+                8
+              ],
+              "distances": [
+                2,
+                3,
+                4,
+                5,
+                6,
+                7,
+                8
+              ],
+              "parity": null,
+              "xi": 0.6242139386799718,
+              "log_rms_residual": 0.04451177505869763,
+              "max_fractional_fit_error": 0.0821793636202901,
+              "min_abs_correlation": 9.046759657377335e-08,
+              "all_points_above_conservative_floor": true
+            },
+            {
+              "window": [
+                4,
+                10
+              ],
+              "distances": [
+                4,
+                5,
+                6,
+                7,
+                8,
+                9,
+                10
+              ],
+              "parity": null,
+              "xi": 0.6358798038530883,
+              "log_rms_residual": 0.010608192606407876,
+              "max_fractional_fit_error": 0.01973969339328674,
+              "min_abs_correlation": 3.946343134220154e-09,
+              "all_points_above_conservative_floor": true
+            },
+            {
+              "window": [
+                6,
+                12
+              ],
+              "distances": [
+                6,
+                7,
+                8,
+                9,
+                10,
+                11,
+                12
+              ],
+              "parity": null,
+              "xi": 0.6382672821635854,
+              "log_rms_residual": 0.0009624207081823295,
+              "max_fractional_fit_error": 0.0018268841072555109,
+              "min_abs_correlation": 1.7195295187732995e-10,
+              "all_points_above_conservative_floor": true
+            },
+            {
+              "window": [
+                8,
+                14
+              ],
+              "distances": [
+                8,
+                9,
+                10,
+                11,
+                12,
+                13,
+                14
+              ],
+              "parity": null,
+              "xi": 0.638304814451934,
+              "log_rms_residual": 0.0004765107643699299,
+              "max_fractional_fit_error": 0.0006712677427638258,
+              "min_abs_correlation": 7.484561581616589e-12,
+              "all_points_above_conservative_floor": true
+            },
+            {
+              "window": [
+                10,
+                16
+              ],
+              "distances": [
+                10,
+                11,
+                12,
+                13,
+                14,
+                15,
+                16
+              ],
+              "parity": null,
+              "xi": 0.6380982937212114,
+              "log_rms_residual": 0.0004007047939135943,
+              "max_fractional_fit_error": 0.0006128045019867523,
+              "min_abs_correlation": 3.255173908200959e-13,
+              "all_points_above_conservative_floor": true
+            }
+          ],
+          "local_effective_decay": [
+            {
+              "distances": [
+                1,
+                2
+              ],
+              "xi": 0.6189648994507962
+            },
+            {
+              "distances": [
+                2,
+                3
+              ],
+              "xi": 0.5867405038063557
+            },
+            {
+              "distances": [
+                3,
+                4
+              ],
+              "xi": 0.6148254434566924
+            },
+            {
+              "distances": [
+                4,
+                5
+              ],
+              "xi": 0.6252069950120247
+            },
+            {
+              "distances": [
+                5,
+                6
+              ],
+              "xi": 0.6338870404282138
+            },
+            {
+              "distances": [
+                6,
+                7
+              ],
+              "xi": 0.637037570241407
+            },
+            {
+              "distances": [
+                7,
+                8
+              ],
+              "xi": 0.6383016268976082
+            },
+            {
+              "distances": [
+                8,
+                9
+              ],
+              "xi": 0.6385535175976293
+            },
+            {
+              "distances": [
+                9,
+                10
+              ],
+              "xi": 0.638503174644899
+            },
+            {
+              "distances": [
+                10,
+                11
+              ],
+              "xi": 0.6383662009100369
+            },
+            {
+              "distances": [
+                11,
+                12
+              ],
+              "xi": 0.6382334675719683
+            },
+            {
+              "distances": [
+                12,
+                13
+              ],
+              "xi": 0.6381256873985296
+            },
+            {
+              "distances": [
+                13,
+                14
+              ],
+              "xi": 0.6380443943406998
+            },
+            {
+              "distances": [
+                14,
+                15
+              ],
+              "xi": 0.6379687299272497
+            },
+            {
+              "distances": [
+                15,
+                16
+              ],
+              "xi": 0.6378743419338675
+            }
+          ]
+        },
+        "DD_intra[(0, 0),(0, 1)]": {
+          "operator": "physical S_i dot S_j",
+          "onepoint_difference_to_energy_based_mean_at_max_r": 5.651597245748263e-09,
+          "spurious_offset_if_subtract_energy_based_mean": -2.3293538972679606e-09,
+          "covariance_reconstruction_max_error": 0.0,
+          "fits": [
+            {
+              "window": [
+                1,
+                4
+              ],
+              "distances": [
+                1,
+                2,
+                3,
+                4
+              ],
+              "parity": null,
+              "xi": 0.4521439692904695,
+              "log_rms_residual": 0.16115009637667016,
+              "max_fractional_fit_error": 0.20998850752399523,
+              "min_abs_correlation": 1.2644839230906146e-05,
+              "all_points_above_conservative_floor": true
+            },
+            {
+              "window": [
+                2,
+                8
+              ],
+              "distances": [
+                2,
+                3,
+                4,
+                5,
+                6,
+                7,
+                8
+              ],
+              "parity": null,
+              "xi": 0.5254213131339545,
+              "log_rms_residual": 0.0939961131031742,
+              "max_fractional_fit_error": 0.15144043144402497,
+              "min_abs_correlation": 7.879487048945144e-09,
+              "all_points_above_conservative_floor": true
+            },
+            {
+              "window": [
+                4,
+                10
+              ],
+              "distances": [
+                4,
+                5,
+                6,
+                7,
+                8,
+                9,
+                10
+              ],
+              "parity": null,
+              "xi": 0.5477787543844678,
+              "log_rms_residual": 0.03332251786709541,
+              "max_fractional_fit_error": 0.05507827319735803,
+              "min_abs_correlation": 2.194588538673159e-10,
+              "all_points_above_conservative_floor": true
+            },
+            {
+              "window": [
+                6,
+                12
+              ],
+              "distances": [
+                6,
+                7,
+                8,
+                9,
+                10,
+                11,
+                12
+              ],
+              "parity": null,
+              "xi": 0.5595409820292705,
+              "log_rms_residual": 0.03358218160165667,
+              "max_fractional_fit_error": 0.05259709043890126,
+              "min_abs_correlation": 6.687699005691883e-12,
+              "all_points_above_conservative_floor": true
+            },
+            {
+              "window": [
+                8,
+                14
+              ],
+              "distances": [
+                8,
+                9,
+                10,
+                11,
+                12,
+                13,
+                14
+              ],
+              "parity": null,
+              "xi": 0.5732895116938768,
+              "log_rms_residual": 0.04099678526283685,
+              "max_fractional_fit_error": 0.06180055058105283,
+              "min_abs_correlation": 2.2499363483419188e-13,
+              "all_points_above_conservative_floor": true
+            },
+            {
+              "window": [
+                10,
+                16
+              ],
+              "distances": [
+                10,
+                11,
+                12,
+                13,
+                14,
+                15,
+                16
+              ],
+              "parity": null,
+              "xi": 0.589615896425173,
+              "log_rms_residual": 0.043089122533838044,
+              "max_fractional_fit_error": 0.06553746250104697,
+              "min_abs_correlation": 8.368306048112117e-15,
+              "all_points_above_conservative_floor": false
+            }
+          ],
+          "local_effective_decay": [
+            {
+              "distances": [
+                1,
+                2
+              ],
+              "xi": 0.38110871140813307
+            },
+            {
+              "distances": [
+                2,
+                3
+              ],
+              "xi": 0.491605076797108
+            },
+            {
+              "distances": [
+                3,
+                4
+              ],
+              "xi": 0.49112157968050085
+            },
+            {
+              "distances": [
+                4,
+                5
+              ],
+              "xi": 0.5295758379529895
+            },
+            {
+              "distances": [
+                5,
+                6
+              ],
+              "xi": 0.541374610265187
+            },
+            {
+              "distances": [
+                6,
+                7
+              ],
+              "xi": 0.5466356081490217
+            },
+            {
+              "distances": [
+                7,
+                8
+              ],
+              "xi": 0.5506862822642618
+            },
+            {
+              "distances": [
+                8,
+                9
+              ],
+              "xi": 0.5554662891740044
+            },
+            {
+              "distances": [
+                9,
+                10
+              ],
+              "xi": 0.5616197840721348
+            },
+            {
+              "distances": [
+                10,
+                11
+              ],
+              "xi": 0.568906471388282
+            },
+            {
+              "distances": [
+                11,
+                12
+              ],
+              "xi": 0.5769885258524031
+            },
+            {
+              "distances": [
+                12,
+                13
+              ],
+              "xi": 0.5854756672945151
+            },
+            {
+              "distances": [
+                13,
+                14
+              ],
+              "xi": 0.593845342890785
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "square": [
+    {
+      "chi": 16,
+      "source": "results/upstream/square_chi16.json",
+      "sha256": "42962f44e5afa5ecd7ae4ca04b6764ffafb606d060445926dac20a10fd396d8c",
+      "ctm_converged": true,
+      "ctm_residual": 9.415121096244475e-09,
+      "generic_transfer_lengths": {
+        "spectrum(T)": 6.208137110204345
+      },
+      "observables": {
+        "DD": {
+          "operator": "physical S_i dot S_j",
+          "onepoint_difference_to_energy_based_mean_at_max_r": 0.00037736339140204134,
+          "spurious_offset_if_subtract_energy_based_mean": -0.0002223714003830174,
+          "covariance_reconstruction_max_error": 0.0,
+          "fits": [
+            {
+              "window": [
+                4,
+                12
+              ],
+              "distances": [
+                4,
+                6,
+                8,
+                10,
+                12
+              ],
+              "parity": 0,
+              "power_exponent": 1.9262343868235898,
+              "log_rms_residual": 0.06193959408181218,
+              "max_fractional_fit_error": 0.08019205977316457,
+              "min_abs_correlation": 0.0013079699658304772,
+              "all_points_above_conservative_floor": true
+            },
+            {
+              "window": [
+                6,
+                20
+              ],
+              "distances": [
+                6,
+                8,
+                10,
+                12,
+                14,
+                16,
+                18,
+                20
+              ],
+              "parity": 0,
+              "power_exponent": 2.6770931851714335,
+              "log_rms_residual": 0.14818091597832975,
+              "max_fractional_fit_error": 0.20566685028065324,
+              "min_abs_correlation": 0.0002228886612827552,
+              "all_points_above_conservative_floor": true
+            },
+            {
+              "window": [
+                10,
+                30
+              ],
+              "distances": [
+                10,
+                12,
+                14,
+                16,
+                18,
+                20,
+                22,
+                24,
+                26,
+                28,
+                30
+              ],
+              "parity": 0,
+              "power_exponent": 3.981605986144531,
+              "log_rms_residual": 0.18923357031254998,
+              "max_fractional_fit_error": 0.2834706047077926,
+              "min_abs_correlation": 2.6793087223447865e-05,
+              "all_points_above_conservative_floor": true
+            },
+            {
+              "window": [
+                20,
+                40
+              ],
+              "distances": [
+                20,
+                22,
+                24,
+                26,
+                28,
+                30,
+                32,
+                34,
+                36,
+                38,
+                40
+              ],
+              "parity": 0,
+              "power_exponent": 5.958336443351497,
+              "log_rms_residual": 0.10375198949592376,
+              "max_fractional_fit_error": 0.16832603234686494,
+              "min_abs_correlation": 3.6462316552188234e-06,
+              "all_points_above_conservative_floor": true
+            },
+            {
+              "window": [
+                40,
+                80
+              ],
+              "distances": [
+                40,
+                42,
+                44,
+                46,
+                48,
+                50,
+                52,
+                54,
+                56,
+                58,
+                60
+              ],
+              "parity": 0,
+              "power_exponent": 8.95394016765235,
+              "log_rms_residual": 0.046349744396381294,
+              "max_fractional_fit_error": 0.07706730825655217,
+              "min_abs_correlation": 9.68986947624817e-08,
+              "all_points_above_conservative_floor": true
+            },
+            {
+              "window": [
+                4,
+                12
+              ],
+              "distances": [
+                5,
+                7,
+                9,
+                11
+              ],
+              "parity": 1,
+              "power_exponent": 1.9509267560561998,
+              "log_rms_residual": 0.03695843226039345,
+              "max_fractional_fit_error": 0.04164326548477226,
+              "min_abs_correlation": 0.0016413894511857485,
+              "all_points_above_conservative_floor": true
+            },
+            {
+              "window": [
+                6,
+                20
+              ],
+              "distances": [
+                7,
+                9,
+                11,
+                13,
+                15,
+                17,
+                19
+              ],
+              "parity": 1,
+              "power_exponent": 2.73473417488735,
+              "log_rms_residual": 0.11146489322486838,
+              "max_fractional_fit_error": 0.15202821819497925,
+              "min_abs_correlation": 0.00027708708587607933,
+              "all_points_above_conservative_floor": true
+            },
+            {
+              "window": [
+                10,
+                30
+              ],
+              "distances": [
+                11,
+                13,
+                15,
+                17,
+                19,
+                21,
+                23,
+                25,
+                27,
+                29
+              ],
+              "parity": 1,
+              "power_exponent": 4.049041008319904,
+              "log_rms_residual": 0.1534022870058736,
+              "max_fractional_fit_error": 0.22889236099512,
+              "min_abs_correlation": 3.2942067104288486e-05,
+              "all_points_above_conservative_floor": true
+            },
+            {
+              "window": [
+                20,
+                40
+              ],
+              "distances": [
+                21,
+                23,
+                25,
+                27,
+                29,
+                31,
+                33,
+                35,
+                37,
+                39
+              ],
+              "parity": 1,
+              "power_exponent": 5.9986585501639125,
+              "log_rms_residual": 0.08460552029746195,
+              "max_fractional_fit_error": 0.13468406331216876,
+              "min_abs_correlation": 4.424593497240337e-06,
+              "all_points_above_conservative_floor": true
+            },
+            {
+              "window": [
+                40,
+                80
+              ],
+              "distances": [
+                41,
+                43,
+                45,
+                47,
+                49,
+                51,
+                53,
+                55,
+                57,
+                59,
+                61
+              ],
+              "parity": 1,
+              "power_exponent": 9.085683362185852,
+              "log_rms_residual": 0.04528115734437076,
+              "max_fractional_fit_error": 0.07521027283527137,
+              "min_abs_correlation": 8.160277054081178e-08,
+              "all_points_above_conservative_floor": true
+            }
+          ],
+          "local_effective_decay": [
+            {
+              "distances": [
+                2,
+                4
+              ],
+              "power_exponent": 1.4057905344639696
+            },
+            {
+              "distances": [
+                4,
+                6
+              ],
+              "power_exponent": 1.6477963028267038
+            },
+            {
+              "distances": [
+                6,
+                8
+              ],
+              "power_exponent": 1.8509166251564297
+            },
+            {
+              "distances": [
+                8,
+                10
+              ],
+              "power_exponent": 2.145500172622363
+            },
+            {
+              "distances": [
+                10,
+                12
+              ],
+              "power_exponent": 2.512287941441594
+            },
+            {
+              "distances": [
+                12,
+                14
+              ],
+              "power_exponent": 2.9133480104852385
+            },
+            {
+              "distances": [
+                14,
+                16
+              ],
+              "power_exponent": 3.3252773115023713
+            },
+            {
+              "distances": [
+                16,
+                18
+              ],
+              "power_exponent": 3.7364726705084226
+            },
+            {
+              "distances": [
+                18,
+                20
+              ],
+              "power_exponent": 4.141424485898874
+            },
+            {
+              "distances": [
+                20,
+                22
+              ],
+              "power_exponent": 4.537372274645958
+            },
+            {
+              "distances": [
+                22,
+                24
+              ],
+              "power_exponent": 4.922758766357656
+            },
+            {
+              "distances": [
+                24,
+                26
+              ],
+              "power_exponent": 5.296595678307434
+            },
+            {
+              "distances": [
+                26,
+                28
+              ],
+              "power_exponent": 5.658233441410036
+            },
+            {
+              "distances": [
+                28,
+                30
+              ],
+              "power_exponent": 6.007296032534636
+            },
+            {
+              "distances": [
+                30,
+                32
+              ],
+              "power_exponent": 6.343676137564054
+            },
+            {
+              "distances": [
+                32,
+                34
+              ],
+              "power_exponent": 6.6675453621155905
+            },
+            {
+              "distances": [
+                34,
+                36
+              ],
+              "power_exponent": 6.979359598455524
+            },
+            {
+              "distances": [
+                36,
+                38
+              ],
+              "power_exponent": 7.279850874124713
+            },
+            {
+              "distances": [
+                38,
+                40
+              ],
+              "power_exponent": 7.570002738138426
+            },
+            {
+              "distances": [
+                40,
+                42
+              ],
+              "power_exponent": 7.8510098084894135
+            },
+            {
+              "distances": [
+                42,
+                44
+              ],
+              "power_exponent": 8.124224595093647
+            },
+            {
+              "distances": [
+                44,
+                46
+              ],
+              "power_exponent": 8.391096446999015
+            },
+            {
+              "distances": [
+                46,
+                48
+              ],
+              "power_exponent": 8.653108140166125
+            },
+            {
+              "distances": [
+                48,
+                50
+              ],
+              "power_exponent": 8.911715625090007
+            },
+            {
+              "distances": [
+                50,
+                52
+              ],
+              "power_exponent": 9.168295439715017
+            },
+            {
+              "distances": [
+                52,
+                54
+              ],
+              "power_exponent": 9.424102943254175
+            },
+            {
+              "distances": [
+                54,
+                56
+              ],
+              "power_exponent": 9.680243141885327
+            },
+            {
+              "distances": [
+                56,
+                58
+              ],
+              "power_exponent": 9.937653704344873
+            },
+            {
+              "distances": [
+                58,
+                60
+              ],
+              "power_exponent": 10.197099782734771
+            },
+            {
+              "distances": [
+                3,
+                5
+              ],
+              "power_exponent": 1.5362589871059926
+            },
+            {
+              "distances": [
+                5,
+                7
+              ],
+              "power_exponent": 1.735540910735998
+            },
+            {
+              "distances": [
+                7,
+                9
+              ],
+              "power_exponent": 1.9837666707581272
+            },
+            {
+              "distances": [
+                9,
+                11
+              ],
+              "power_exponent": 2.320788785360335
+            },
+            {
+              "distances": [
+                11,
+                13
+              ],
+              "power_exponent": 2.7092934449105956
+            },
+            {
+              "distances": [
+                13,
+                15
+              ],
+              "power_exponent": 3.118229935276231
+            },
+            {
+              "distances": [
+                15,
+                17
+              ],
+              "power_exponent": 3.5310046497879495
+            },
+            {
+              "distances": [
+                17,
+                19
+              ],
+              "power_exponent": 3.9396945777985612
+            },
+            {
+              "distances": [
+                19,
+                21
+              ],
+              "power_exponent": 4.340484132777429
+            },
+            {
+              "distances": [
+                21,
+                23
+              ],
+              "power_exponent": 4.7313581881105975
+            },
+            {
+              "distances": [
+                23,
+                25
+              ],
+              "power_exponent": 5.111104363550782
+            },
+            {
+              "distances": [
+                25,
+                27
+              ],
+              "power_exponent": 5.478927197355523
+            },
+            {
+              "distances": [
+                27,
+                29
+              ],
+              "power_exponent": 5.83432180317311
+            },
+            {
+              "distances": [
+                29,
+                31
+              ],
+              "power_exponent": 6.177048516240489
+            },
+            {
+              "distances": [
+                31,
+                33
+              ],
+              "power_exponent": 6.507140012838219
+            },
+            {
+              "distances": [
+                33,
+                35
+              ],
+              "power_exponent": 6.824911188961885
+            },
+            {
+              "distances": [
+                35,
+                37
+              ],
+              "power_exponent": 7.1309587102878735
+            },
+            {
+              "distances": [
+                37,
+                39
+              ],
+              "power_exponent": 7.426144913999048
+            },
+            {
+              "distances": [
+                39,
+                41
+              ],
+              "power_exponent": 7.711565113244117
+            },
+            {
+              "distances": [
+                41,
+                43
+              ],
+              "power_exponent": 7.9885003240642245
+            },
+            {
+              "distances": [
+                43,
+                45
+              ],
+              "power_exponent": 8.258359513428552
+            },
+            {
+              "distances": [
+                45,
+                47
+              ],
+              "power_exponent": 8.522616691632098
+            },
+            {
+              "distances": [
+                47,
+                49
+              ],
+              "power_exponent": 8.782748412902693
+            },
+            {
+              "distances": [
+                49,
+                51
+              ],
+              "power_exponent": 9.040176910597596
+            },
+            {
+              "distances": [
+                51,
+                53
+              ],
+              "power_exponent": 9.296222647654956
+            },
+            {
+              "distances": [
+                53,
+                55
+              ],
+              "power_exponent": 9.55206864563116
+            },
+            {
+              "distances": [
+                55,
+                57
+              ],
+              "power_exponent": 9.80873767648578
+            },
+            {
+              "distances": [
+                57,
+                59
+              ],
+              "power_exponent": 10.067081124961078
+            },
+            {
+              "distances": [
+                59,
+                61
+              ],
+              "power_exponent": 10.327778916077119
+            }
+          ]
+        }
+      }
+    },
+    {
+      "chi": 32,
+      "source": "results/upstream/square_chi32.json",
+      "sha256": "bf176e916e5933d7404e077b75fffc4220e6640ca1ac0156be13369cff1a0659",
+      "ctm_converged": true,
+      "ctm_residual": 9.734828193273403e-09,
+      "generic_transfer_lengths": {
+        "spectrum(T)": 14.001257929973844
+      },
+      "observables": {
+        "DD": {
+          "operator": "physical S_i dot S_j",
+          "onepoint_difference_to_energy_based_mean_at_max_r": 0.0003424860836159782,
+          "spurious_offset_if_subtract_energy_based_mean": -0.0002021174232597206,
+          "covariance_reconstruction_max_error": 0.0,
+          "fits": [
+            {
+              "window": [
+                4,
+                12
+              ],
+              "distances": [
+                4,
+                6,
+                8,
+                10,
+                12
+              ],
+              "parity": 0,
+              "power_exponent": 1.4082884840918304,
+              "log_rms_residual": 0.008120820230187571,
+              "max_fractional_fit_error": 0.009622298988248401,
+              "min_abs_correlation": 0.0025238606220704257,
+              "all_points_above_conservative_floor": true
+            },
+            {
+              "window": [
+                6,
+                20
+              ],
+              "distances": [
+                6,
+                8,
+                10,
+                12,
+                14,
+                16,
+                18,
+                20
+              ],
+              "parity": 0,
+              "power_exponent": 1.4268050854330203,
+              "log_rms_residual": 0.017667288213446743,
+              "max_fractional_fit_error": 0.03392500041897817,
+              "min_abs_correlation": 0.0011557443170223392,
+              "all_points_above_conservative_floor": true
+            },
+            {
+              "window": [
+                10,
+                30
+              ],
+              "distances": [
+                10,
+                12,
+                14,
+                16,
+                18,
+                20,
+                22,
+                24,
+                26,
+                28,
+                30
+              ],
+              "parity": 0,
+              "power_exponent": 1.7183791100592876,
+              "log_rms_residual": 0.060793556820913155,
+              "max_fractional_fit_error": 0.102567521604909,
+              "min_abs_correlation": 0.0004826928774747524,
+              "all_points_above_conservative_floor": true
+            },
+            {
+              "window": [
+                20,
+                40
+              ],
+              "distances": [
+                20,
+                22,
+                24,
+                26,
+                28,
+                30,
+                32,
+                34,
+                36,
+                38,
+                40
+              ],
+              "parity": 0,
+              "power_exponent": 2.505425110642459,
+              "log_rms_residual": 0.05066180890243674,
+              "max_fractional_fit_error": 0.08306710489341618,
+              "min_abs_correlation": 0.0002039094721361795,
+              "all_points_above_conservative_floor": true
+            },
+            {
+              "window": [
+                40,
+                80
+              ],
+              "distances": [
+                40,
+                42,
+                44,
+                46,
+                48,
+                50,
+                52,
+                54,
+                56,
+                58,
+                60
+              ],
+              "parity": 0,
+              "power_exponent": 4.241130784680848,
+              "log_rms_residual": 0.030474101165844987,
+              "max_fractional_fit_error": 0.05104033021372967,
+              "min_abs_correlation": 3.6574232916600224e-05,
+              "all_points_above_conservative_floor": true
+            },
+            {
+              "window": [
+                4,
+                12
+              ],
+              "distances": [
+                5,
+                7,
+                9,
+                11
+              ],
+              "parity": 1,
+              "power_exponent": 1.3964517043194582,
+              "log_rms_residual": 0.005379839887844512,
+              "max_fractional_fit_error": 0.0071189632558350535,
+              "min_abs_correlation": 0.0028394918678486536,
+              "all_points_above_conservative_floor": true
+            },
+            {
+              "window": [
+                6,
+                20
+              ],
+              "distances": [
+                7,
+                9,
+                11,
+                13,
+                15,
+                17,
+                19
+              ],
+              "parity": 1,
+              "power_exponent": 1.416877646903343,
+              "log_rms_residual": 0.014151507720573882,
+              "max_fractional_fit_error": 0.02510931924121662,
+              "min_abs_correlation": 0.0012642073342115229,
+              "all_points_above_conservative_floor": true
+            },
+            {
+              "window": [
+                10,
+                30
+              ],
+              "distances": [
+                11,
+                13,
+                15,
+                17,
+                19,
+                21,
+                23,
+                25,
+                27,
+                29
+              ],
+              "parity": 1,
+              "power_exponent": 1.728696142243268,
+              "log_rms_residual": 0.05063672664273411,
+              "max_fractional_fit_error": 0.08362843011712184,
+              "min_abs_correlation": 0.0005262228131510532,
+              "all_points_above_conservative_floor": true
+            },
+            {
+              "window": [
+                20,
+                40
+              ],
+              "distances": [
+                21,
+                23,
+                25,
+                27,
+                29,
+                31,
+                33,
+                35,
+                37,
+                39
+              ],
+              "parity": 1,
+              "power_exponent": 2.5205614988784864,
+              "log_rms_residual": 0.04153699777668466,
+              "max_fractional_fit_error": 0.06647854481712301,
+              "min_abs_correlation": 0.00022223047226641035,
+              "all_points_above_conservative_floor": true
+            },
+            {
+              "window": [
+                40,
+                80
+              ],
+              "distances": [
+                41,
+                43,
+                45,
+                47,
+                49,
+                51,
+                53,
+                55,
+                57,
+                59,
+                61
+              ],
+              "parity": 1,
+              "power_exponent": 4.327430328059029,
+              "log_rms_residual": 0.029853486608263518,
+              "max_fractional_fit_error": 0.050018594493828394,
+              "min_abs_correlation": 3.356786115991939e-05,
+              "all_points_above_conservative_floor": true
+            }
+          ],
+          "local_effective_decay": [
+            {
+              "distances": [
+                2,
+                4
+              ],
+              "power_exponent": 1.3367903800244252
+            },
+            {
+              "distances": [
+                4,
+                6
+              ],
+              "power_exponent": 1.451245624233734
+            },
+            {
+              "distances": [
+                6,
+                8
+              ],
+              "power_exponent": 1.4123616713399099
+            },
+            {
+              "distances": [
+                8,
+                10
+              ],
+              "power_exponent": 1.3647132534153055
+            },
+            {
+              "distances": [
+                10,
+                12
+              ],
+              "power_exponent": 1.3581780553525233
+            },
+            {
+              "distances": [
+                12,
+                14
+              ],
+              "power_exponent": 1.3988124679831986
+            },
+            {
+              "distances": [
+                14,
+                16
+              ],
+              "power_exponent": 1.4786722829600458
+            },
+            {
+              "distances": [
+                16,
+                18
+              ],
+              "power_exponent": 1.5877486730176287
+            },
+            {
+              "distances": [
+                18,
+                20
+              ],
+              "power_exponent": 1.7175147027116677
+            },
+            {
+              "distances": [
+                20,
+                22
+              ],
+              "power_exponent": 1.8615158299929644
+            },
+            {
+              "distances": [
+                22,
+                24
+              ],
+              "power_exponent": 2.015118559996928
+            },
+            {
+              "distances": [
+                24,
+                26
+              ],
+              "power_exponent": 2.1750959267455334
+            },
+            {
+              "distances": [
+                26,
+                28
+              ],
+              "power_exponent": 2.3392459750550247
+            },
+            {
+              "distances": [
+                28,
+                30
+              ],
+              "power_exponent": 2.506088859006013
+            },
+            {
+              "distances": [
+                30,
+                32
+              ],
+              "power_exponent": 2.6746418257927735
+            },
+            {
+              "distances": [
+                32,
+                34
+              ],
+              "power_exponent": 2.84425842474668
+            },
+            {
+              "distances": [
+                34,
+                36
+              ],
+              "power_exponent": 3.0145166002830392
+            },
+            {
+              "distances": [
+                36,
+                38
+              ],
+              "power_exponent": 3.18514231952965
+            },
+            {
+              "distances": [
+                38,
+                40
+              ],
+              "power_exponent": 3.355958247834742
+            },
+            {
+              "distances": [
+                40,
+                42
+              ],
+              "power_exponent": 3.526849688860891
+            },
+            {
+              "distances": [
+                42,
+                44
+              ],
+              "power_exponent": 3.697742217012908
+            },
+            {
+              "distances": [
+                44,
+                46
+              ],
+              "power_exponent": 3.868587118567468
+            },
+            {
+              "distances": [
+                46,
+                48
+              ],
+              "power_exponent": 4.039351988642337
+            },
+            {
+              "distances": [
+                48,
+                50
+              ],
+              "power_exponent": 4.2100146955083
+            },
+            {
+              "distances": [
+                50,
+                52
+              ],
+              "power_exponent": 4.38055953197503
+            },
+            {
+              "distances": [
+                52,
+                54
+              ],
+              "power_exponent": 4.550974770226128
+            },
+            {
+              "distances": [
+                54,
+                56
+              ],
+              "power_exponent": 4.721251117065321
+            },
+            {
+              "distances": [
+                56,
+                58
+              ],
+              "power_exponent": 4.891380741641691
+            },
+            {
+              "distances": [
+                58,
+                60
+              ],
+              "power_exponent": 5.061356663699366
+            },
+            {
+              "distances": [
+                3,
+                5
+              ],
+              "power_exponent": 1.4099869233312532
+            },
+            {
+              "distances": [
+                5,
+                7
+              ],
+              "power_exponent": 1.4323150897704562
+            },
+            {
+              "distances": [
+                7,
+                9
+              ],
+              "power_exponent": 1.3809537896902742
+            },
+            {
+              "distances": [
+                9,
+                11
+              ],
+              "power_exponent": 1.3529926268191406
+            },
+            {
+              "distances": [
+                11,
+                13
+              ],
+              "power_exponent": 1.3714950661758032
+            },
+            {
+              "distances": [
+                13,
+                15
+              ],
+              "power_exponent": 1.433473774580693
+            },
+            {
+              "distances": [
+                15,
+                17
+              ],
+              "power_exponent": 1.5293885156660587
+            },
+            {
+              "distances": [
+                17,
+                19
+              ],
+              "power_exponent": 1.6499035578438215
+            },
+            {
+              "distances": [
+                19,
+                21
+              ],
+              "power_exponent": 1.7875825202609992
+            },
+            {
+              "distances": [
+                21,
+                23
+              ],
+              "power_exponent": 1.9369515552618635
+            },
+            {
+              "distances": [
+                23,
+                25
+              ],
+              "power_exponent": 2.0941412747670363
+            },
+            {
+              "distances": [
+                25,
+                27
+              ],
+              "power_exponent": 2.256484731785746
+            },
+            {
+              "distances": [
+                27,
+                29
+              ],
+              "power_exponent": 2.4221764238253223
+            },
+            {
+              "distances": [
+                29,
+                31
+              ],
+              "power_exponent": 2.59001067319564
+            },
+            {
+              "distances": [
+                31,
+                33
+              ],
+              "power_exponent": 2.7591910474227217
+            },
+            {
+              "distances": [
+                33,
+                35
+              ],
+              "power_exponent": 2.929195982731355
+            },
+            {
+              "distances": [
+                35,
+                37
+              ],
+              "power_exponent": 3.0996861973755587
+            },
+            {
+              "distances": [
+                37,
+                39
+              ],
+              "power_exponent": 3.2704420098437668
+            },
+            {
+              "distances": [
+                39,
+                41
+              ],
+              "power_exponent": 3.4413214954975717
+            },
+            {
+              "distances": [
+                41,
+                43
+              ],
+              "power_exponent": 3.6122328746707093
+            },
+            {
+              "distances": [
+                43,
+                45
+              ],
+              "power_exponent": 3.7831164698343343
+            },
+            {
+              "distances": [
+                45,
+                47
+              ],
+              "power_exponent": 3.9539330128078816
+            },
+            {
+              "distances": [
+                47,
+                49
+              ],
+              "power_exponent": 4.124656121144053
+            },
+            {
+              "distances": [
+                49,
+                51
+              ],
+              "power_exponent": 4.295267489183584
+            },
+            {
+              "distances": [
+                51,
+                53
+              ],
+              "power_exponent": 4.465753828632829
+            },
+            {
+              "distances": [
+                53,
+                55
+              ],
+              "power_exponent": 4.636104934055392
+            },
+            {
+              "distances": [
+                55,
+                57
+              ],
+              "power_exponent": 4.806312463255397
+            },
+            {
+              "distances": [
+                57,
+                59
+              ],
+              "power_exponent": 4.976369171928954
+            },
+            {
+              "distances": [
+                59,
+                61
+              ],
+              "power_exponent": 5.146268436185898
+            }
+          ]
+        }
+      }
+    },
+    {
+      "chi": 64,
+      "source": "results/upstream/square_chi64.json",
+      "sha256": "09c9c6d0f3fc8c7e874b43a25769b6e3d827cccb82cad664077761568c263f1a",
+      "ctm_converged": true,
+      "ctm_residual": 9.814909509631863e-09,
+      "generic_transfer_lengths": {
+        "spectrum(T)": 23.557184059106813
+      },
+      "observables": {
+        "DD": {
+          "operator": "physical S_i dot S_j",
+          "onepoint_difference_to_energy_based_mean_at_max_r": 4.287563824334484e-05,
+          "spurious_offset_if_subtract_energy_based_mean": -2.536887328309645e-05,
+          "covariance_reconstruction_max_error": 0.0,
+          "fits": [
+            {
+              "window": [
+                4,
+                12
+              ],
+              "distances": [
+                4,
+                6,
+                8,
+                10,
+                12
+              ],
+              "parity": 0,
+              "power_exponent": 1.3896648158747027,
+              "log_rms_residual": 0.00472516540172532,
+              "max_fractional_fit_error": 0.005960340191452862,
+              "min_abs_correlation": 0.002555606660755369,
+              "all_points_above_conservative_floor": true
+            },
+            {
+              "window": [
+                6,
+                20
+              ],
+              "distances": [
+                6,
+                8,
+                10,
+                12,
+                14,
+                16,
+                18,
+                20
+              ],
+              "parity": 0,
+              "power_exponent": 1.3750769258854032,
+              "log_rms_residual": 0.002012155387892962,
+              "max_fractional_fit_error": 0.003702010008694079,
+              "min_abs_correlation": 0.0012597109476536195,
+              "all_points_above_conservative_floor": true
+            },
+            {
+              "window": [
+                10,
+                30
+              ],
+              "distances": [
+                10,
+                12,
+                14,
+                16,
+                18,
+                20,
+                22,
+                24,
+                26,
+                28,
+                30
+              ],
+              "parity": 0,
+              "power_exponent": 1.4319903637895677,
+              "log_rms_residual": 0.014807507708240174,
+              "max_fractional_fit_error": 0.029314541640556024,
+              "min_abs_correlation": 0.0006729088355247187,
+              "all_points_above_conservative_floor": true
+            },
+            {
+              "window": [
+                20,
+                40
+              ],
+              "distances": [
+                20,
+                22,
+                24,
+                26,
+                28,
+                30,
+                32,
+                34,
+                36,
+                38,
+                40
+              ],
+              "parity": 0,
+              "power_exponent": 1.6983234954616946,
+              "log_rms_residual": 0.022548703480357604,
+              "max_fractional_fit_error": 0.039119894785311526,
+              "min_abs_correlation": 0.0003867111227373321,
+              "all_points_above_conservative_floor": true
+            },
+            {
+              "window": [
+                40,
+                80
+              ],
+              "distances": [
+                40,
+                42,
+                44,
+                46,
+                48,
+                50,
+                52,
+                54,
+                56,
+                58,
+                60
+              ],
+              "parity": 0,
+              "power_exponent": 2.642068267485897,
+              "log_rms_residual": 0.018396092248824866,
+              "max_fractional_fit_error": 0.030939809346810843,
+              "min_abs_correlation": 0.00013253356243191072,
+              "all_points_above_conservative_floor": true
+            },
+            {
+              "window": [
+                4,
+                12
+              ],
+              "distances": [
+                5,
+                7,
+                9,
+                11
+              ],
+              "parity": 1,
+              "power_exponent": 1.3778107768520746,
+              "log_rms_residual": 0.0022696793814387384,
+              "max_fractional_fit_error": 0.0032383224439433977,
+              "min_abs_correlation": 0.0028754927945496694,
+              "all_points_above_conservative_floor": true
+            },
+            {
+              "window": [
+                6,
+                20
+              ],
+              "distances": [
+                7,
+                9,
+                11,
+                13,
+                15,
+                17,
+                19
+              ],
+              "parity": 1,
+              "power_exponent": 1.3700954939211298,
+              "log_rms_residual": 0.0016100003673342079,
+              "max_fractional_fit_error": 0.0030089988028680903,
+              "min_abs_correlation": 0.0013546581923740836,
+              "all_points_above_conservative_floor": true
+            },
+            {
+              "window": [
+                10,
+                30
+              ],
+              "distances": [
+                11,
+                13,
+                15,
+                17,
+                19,
+                21,
+                23,
+                25,
+                27,
+                29
+              ],
+              "parity": 1,
+              "power_exponent": 1.431239725049141,
+              "log_rms_residual": 0.012242509783909224,
+              "max_fractional_fit_error": 0.02334914059734272,
+              "min_abs_correlation": 0.0007127797433877509,
+              "all_points_above_conservative_floor": true
+            },
+            {
+              "window": [
+                20,
+                40
+              ],
+              "distances": [
+                21,
+                23,
+                25,
+                27,
+                29,
+                31,
+                33,
+                35,
+                37,
+                39
+              ],
+              "parity": 1,
+              "power_exponent": 1.7018690811491068,
+              "log_rms_residual": 0.018631333228788235,
+              "max_fractional_fit_error": 0.03150616253096861,
+              "min_abs_correlation": 0.00040825748765585534,
+              "all_points_above_conservative_floor": true
+            },
+            {
+              "window": [
+                40,
+                80
+              ],
+              "distances": [
+                41,
+                43,
+                45,
+                47,
+                49,
+                51,
+                53,
+                55,
+                57,
+                59,
+                61
+              ],
+              "parity": 1,
+              "power_exponent": 2.6940889494199385,
+              "log_rms_residual": 0.018086131007963732,
+              "max_fractional_fit_error": 0.03044223157820991,
+              "min_abs_correlation": 0.00012566019080388624,
+              "all_points_above_conservative_floor": true
+            }
+          ],
+          "local_effective_decay": [
+            {
+              "distances": [
+                2,
+                4
+              ],
+              "power_exponent": 1.342534193820122
+            },
+            {
+              "distances": [
+                4,
+                6
+              ],
+              "power_exponent": 1.417854474703032
+            },
+            {
+              "distances": [
+                6,
+                8
+              ],
+              "power_exponent": 1.385229012274348
+            },
+            {
+              "distances": [
+                8,
+                10
+              ],
+              "power_exponent": 1.367095398865413
+            },
+            {
+              "distances": [
+                10,
+                12
+              ],
+              "power_exponent": 1.3646529447539115
+            },
+            {
+              "distances": [
+                12,
+                14
+              ],
+              "power_exponent": 1.3681441661934595
+            },
+            {
+              "distances": [
+                14,
+                16
+              ],
+              "power_exponent": 1.3760199576248455
+            },
+            {
+              "distances": [
+                16,
+                18
+              ],
+              "power_exponent": 1.3905281651825907
+            },
+            {
+              "distances": [
+                18,
+                20
+              ],
+              "power_exponent": 1.4140449496285044
+            },
+            {
+              "distances": [
+                20,
+                22
+              ],
+              "power_exponent": 1.447893200996389
+            },
+            {
+              "distances": [
+                22,
+                24
+              ],
+              "power_exponent": 1.4923168961925617
+            },
+            {
+              "distances": [
+                24,
+                26
+              ],
+              "power_exponent": 1.5467894266558055
+            },
+            {
+              "distances": [
+                26,
+                28
+              ],
+              "power_exponent": 1.6103387016817652
+            },
+            {
+              "distances": [
+                28,
+                30
+              ],
+              "power_exponent": 1.6817976254426132
+            },
+            {
+              "distances": [
+                30,
+                32
+              ],
+              "power_exponent": 1.759970481481351
+            },
+            {
+              "distances": [
+                32,
+                34
+              ],
+              "power_exponent": 1.843730863343285
+            },
+            {
+              "distances": [
+                34,
+                36
+              ],
+              "power_exponent": 1.9320710745439527
+            },
+            {
+              "distances": [
+                36,
+                38
+              ],
+              "power_exponent": 2.024120178640551
+            },
+            {
+              "distances": [
+                38,
+                40
+              ],
+              "power_exponent": 2.1191434560296525
+            },
+            {
+              "distances": [
+                40,
+                42
+              ],
+              "power_exponent": 2.216531929378389
+            },
+            {
+              "distances": [
+                42,
+                44
+              ],
+              "power_exponent": 2.3157874489615393
+            },
+            {
+              "distances": [
+                44,
+                46
+              ],
+              "power_exponent": 2.416506599721044
+            },
+            {
+              "distances": [
+                46,
+                48
+              ],
+              "power_exponent": 2.518365226730418
+            },
+            {
+              "distances": [
+                48,
+                50
+              ],
+              "power_exponent": 2.621104458785883
+            },
+            {
+              "distances": [
+                50,
+                52
+              ],
+              "power_exponent": 2.72451856615819
+            },
+            {
+              "distances": [
+                52,
+                54
+              ],
+              "power_exponent": 2.828444682798546
+            },
+            {
+              "distances": [
+                54,
+                56
+              ],
+              "power_exponent": 2.932754265572678
+            },
+            {
+              "distances": [
+                56,
+                58
+              ],
+              "power_exponent": 3.037346092410634
+            },
+            {
+              "distances": [
+                58,
+                60
+              ],
+              "power_exponent": 3.142140581624152
+            },
+            {
+              "distances": [
+                3,
+                5
+              ],
+              "power_exponent": 1.3850231375279574
+            },
+            {
+              "distances": [
+                5,
+                7
+              ],
+              "power_exponent": 1.393743022912786
+            },
+            {
+              "distances": [
+                7,
+                9
+              ],
+              "power_exponent": 1.3689347203535276
+            },
+            {
+              "distances": [
+                9,
+                11
+              ],
+              "power_exponent": 1.3621025139818597
+            },
+            {
+              "distances": [
+                11,
+                13
+              ],
+              "power_exponent": 1.364238072548787
+            },
+            {
+              "distances": [
+                13,
+                15
+              ],
+              "power_exponent": 1.3703093964406552
+            },
+            {
+              "distances": [
+                15,
+                17
+              ],
+              "power_exponent": 1.38149588091678
+            },
+            {
+              "distances": [
+                17,
+                19
+              ],
+              "power_exponent": 1.4004735568557694
+            },
+            {
+              "distances": [
+                19,
+                21
+              ],
+              "power_exponent": 1.4291925278502813
+            },
+            {
+              "distances": [
+                21,
+                23
+              ],
+              "power_exponent": 1.4684381071858417
+            },
+            {
+              "distances": [
+                23,
+                25
+              ],
+              "power_exponent": 1.5180440865976232
+            },
+            {
+              "distances": [
+                25,
+                27
+              ],
+              "power_exponent": 1.5772351148430166
+            },
+            {
+              "distances": [
+                27,
+                29
+              ],
+              "power_exponent": 1.64492191242382
+            },
+            {
+              "distances": [
+                29,
+                31
+              ],
+              "power_exponent": 1.71991050364229
+            },
+            {
+              "distances": [
+                31,
+                33
+              ],
+              "power_exponent": 1.8010330437090953
+            },
+            {
+              "distances": [
+                33,
+                35
+              ],
+              "power_exponent": 1.8872197556073183
+            },
+            {
+              "distances": [
+                35,
+                37
+              ],
+              "power_exponent": 1.9775311545560426
+            },
+            {
+              "distances": [
+                37,
+                39
+              ],
+              "power_exponent": 2.071165688838975
+            },
+            {
+              "distances": [
+                39,
+                41
+              ],
+              "power_exponent": 2.1674534827754486
+            },
+            {
+              "distances": [
+                41,
+                43
+              ],
+              "power_exponent": 2.265843175983112
+            },
+            {
+              "distances": [
+                43,
+                45
+              ],
+              "power_exponent": 2.3658861510774205
+            },
+            {
+              "distances": [
+                45,
+                47
+              ],
+              "power_exponent": 2.467220610983456
+            },
+            {
+              "distances": [
+                47,
+                49
+              ],
+              "power_exponent": 2.56955679353427
+            },
+            {
+              "distances": [
+                49,
+                51
+              ],
+              "power_exponent": 2.672663899070842
+            },
+            {
+              "distances": [
+                51,
+                53
+              ],
+              "power_exponent": 2.77635889159147
+            },
+            {
+              "distances": [
+                53,
+                55
+              ],
+              "power_exponent": 2.8804971137116664
+            },
+            {
+              "distances": [
+                55,
+                57
+              ],
+              "power_exponent": 2.984964542782276
+            },
+            {
+              "distances": [
+                57,
+                59
+              ],
+              "power_exponent": 3.0896714782167978
+            },
+            {
+              "distances": [
+                59,
+                61
+              ],
+              "power_exponent": 3.1945474405334666
+            }
+          ]
+        }
+      }
+    },
+    {
+      "chi": 128,
+      "source": "results/upstream/square_chi128.json",
+      "sha256": "5e55cb0411ea3c8045247b823f4dafd8c6fb30fd09afa8fc7a678a626a64fd3c",
+      "ctm_converged": true,
+      "ctm_residual": 9.94095327179931e-09,
+      "generic_transfer_lengths": {
+        "spectrum(T)": 49.92224179262809
+      },
+      "observables": {
+        "DD": {
+          "operator": "physical S_i dot S_j",
+          "onepoint_difference_to_energy_based_mean_at_max_r": 1.0312193820916082e-05,
+          "spurious_offset_if_subtract_energy_based_mean": -6.103318177935746e-06,
+          "covariance_reconstruction_max_error": 0.0,
+          "fits": [
+            {
+              "window": [
+                4,
+                12
+              ],
+              "distances": [
+                4,
+                6,
+                8,
+                10,
+                12
+              ],
+              "parity": 0,
+              "power_exponent": 1.353932884321404,
+              "log_rms_residual": 0.009716860250847332,
+              "max_fractional_fit_error": 0.011217463150398732,
+              "min_abs_correlation": 0.002667298165433943,
+              "all_points_above_conservative_floor": true
+            },
+            {
+              "window": [
+                6,
+                20
+              ],
+              "distances": [
+                6,
+                8,
+                10,
+                12,
+                14,
+                16,
+                18,
+                20
+              ],
+              "parity": 0,
+              "power_exponent": 1.3051336588563616,
+              "log_rms_residual": 0.004531441759760813,
+              "max_fractional_fit_error": 0.008606113468049514,
+              "min_abs_correlation": 0.001377667844520522,
+              "all_points_above_conservative_floor": true
+            },
+            {
+              "window": [
+                10,
+                30
+              ],
+              "distances": [
+                10,
+                12,
+                14,
+                16,
+                18,
+                20,
+                22,
+                24,
+                26,
+                28,
+                30
+              ],
+              "parity": 0,
+              "power_exponent": 1.2976055269217894,
+              "log_rms_residual": 0.0013245098498364737,
+              "max_fractional_fit_error": 0.002259895774268994,
+              "min_abs_correlation": 0.0008115582598366838,
+              "all_points_above_conservative_floor": true
+            },
+            {
+              "window": [
+                20,
+                40
+              ],
+              "distances": [
+                20,
+                22,
+                24,
+                26,
+                28,
+                30,
+                32,
+                34,
+                36,
+                38,
+                40
+              ],
+              "parity": 0,
+              "power_exponent": 1.310172502533391,
+              "log_rms_residual": 0.0009581399878637901,
+              "max_fractional_fit_error": 0.002153381826421219,
+              "min_abs_correlation": 0.0005549721280359438,
+              "all_points_above_conservative_floor": true
+            },
+            {
+              "window": [
+                40,
+                80
+              ],
+              "distances": [
+                40,
+                42,
+                44,
+                46,
+                48,
+                50,
+                52,
+                54,
+                56,
+                58,
+                60,
+                62,
+                64,
+                66,
+                68,
+                70,
+                72,
+                74,
+                76,
+                78,
+                80
+              ],
+              "parity": 0,
+              "power_exponent": 1.5952647640658113,
+              "log_rms_residual": 0.019370188204086244,
+              "max_fractional_fit_error": 0.03787066253376603,
+              "min_abs_correlation": 0.00018316848917683537,
+              "all_points_above_conservative_floor": true
+            },
+            {
+              "window": [
+                4,
+                12
+              ],
+              "distances": [
+                5,
+                7,
+                9,
+                11
+              ],
+              "parity": 1,
+              "power_exponent": 1.3379426962306102,
+              "log_rms_residual": 0.005373172112481909,
+              "max_fractional_fit_error": 0.007050893636842082,
+              "min_abs_correlation": 0.002980863909545245,
+              "all_points_above_conservative_floor": true
+            },
+            {
+              "window": [
+                6,
+                20
+              ],
+              "distances": [
+                7,
+                9,
+                11,
+                13,
+                15,
+                17,
+                19
+              ],
+              "parity": 1,
+              "power_exponent": 1.2965248189906342,
+              "log_rms_residual": 0.0021191826654827443,
+              "max_fractional_fit_error": 0.0036259126168736167,
+              "min_abs_correlation": 0.0014724871655501792,
+              "all_points_above_conservative_floor": true
+            },
+            {
+              "window": [
+                10,
+                30
+              ],
+              "distances": [
+                11,
+                13,
+                15,
+                17,
+                19,
+                21,
+                23,
+                25,
+                27,
+                29
+              ],
+              "parity": 1,
+              "power_exponent": 1.297298605268132,
+              "log_rms_residual": 0.001255219877524525,
+              "max_fractional_fit_error": 0.002308138343739774,
+              "min_abs_correlation": 0.0008482335580547173,
+              "all_points_above_conservative_floor": true
+            },
+            {
+              "window": [
+                20,
+                40
+              ],
+              "distances": [
+                21,
+                23,
+                25,
+                27,
+                29,
+                31,
+                33,
+                35,
+                37,
+                39
+              ],
+              "parity": 1,
+              "power_exponent": 1.3095267514537576,
+              "log_rms_residual": 0.0007563309074078438,
+              "max_fractional_fit_error": 0.0016268821079791218,
+              "min_abs_correlation": 0.0005741492200281029,
+              "all_points_above_conservative_floor": true
+            },
+            {
+              "window": [
+                40,
+                80
+              ],
+              "distances": [
+                41,
+                43,
+                45,
+                47,
+                49,
+                51,
+                53,
+                55,
+                57,
+                59,
+                61,
+                63,
+                65,
+                67,
+                69,
+                71,
+                73,
+                75,
+                77,
+                79
+              ],
+              "parity": 1,
+              "power_exponent": 1.596862300897193,
+              "log_rms_residual": 0.017598362581395022,
+              "max_fractional_fit_error": 0.03419353911629586,
+              "min_abs_correlation": 0.00018787948501501617,
+              "all_points_above_conservative_floor": true
+            }
+          ],
+          "local_effective_decay": [
+            {
+              "distances": [
+                2,
+                4
+              ],
+              "power_exponent": 1.3400806466619863
+            },
+            {
+              "distances": [
+                4,
+                6
+              ],
+              "power_exponent": 1.4073593430917757
+            },
+            {
+              "distances": [
+                6,
+                8
+              ],
+              "power_exponent": 1.3532137049575668
+            },
+            {
+              "distances": [
+                8,
+                10
+              ],
+              "power_exponent": 1.3088381469950563
+            },
+            {
+              "distances": [
+                10,
+                12
+              ],
+              "power_exponent": 1.2897111239586825
+            },
+            {
+              "distances": [
+                12,
+                14
+              ],
+              "power_exponent": 1.2868519316372538
+            },
+            {
+              "distances": [
+                14,
+                16
+              ],
+              "power_exponent": 1.2911648802391087
+            },
+            {
+              "distances": [
+                16,
+                18
+              ],
+              "power_exponent": 1.296967923499331
+            },
+            {
+              "distances": [
+                18,
+                20
+              ],
+              "power_exponent": 1.3015594171108635
+            },
+            {
+              "distances": [
+                20,
+                22
+              ],
+              "power_exponent": 1.3041872459178974
+            },
+            {
+              "distances": [
+                22,
+                24
+              ],
+              "power_exponent": 1.305159207491898
+            },
+            {
+              "distances": [
+                24,
+                26
+              ],
+              "power_exponent": 1.305241420220548
+            },
+            {
+              "distances": [
+                26,
+                28
+              ],
+              "power_exponent": 1.305308813959908
+            },
+            {
+              "distances": [
+                28,
+                30
+              ],
+              "power_exponent": 1.3061688010801416
+            },
+            {
+              "distances": [
+                30,
+                32
+              ],
+              "power_exponent": 1.3084884854191186
+            },
+            {
+              "distances": [
+                32,
+                34
+              ],
+              "power_exponent": 1.312777431594388
+            },
+            {
+              "distances": [
+                34,
+                36
+              ],
+              "power_exponent": 1.3193970516961628
+            },
+            {
+              "distances": [
+                36,
+                38
+              ],
+              "power_exponent": 1.3285807047499234
+            },
+            {
+              "distances": [
+                38,
+                40
+              ],
+              "power_exponent": 1.340456457511316
+            },
+            {
+              "distances": [
+                40,
+                42
+              ],
+              "power_exponent": 1.355068793698558
+            },
+            {
+              "distances": [
+                42,
+                44
+              ],
+              "power_exponent": 1.372397795968374
+            },
+            {
+              "distances": [
+                44,
+                46
+              ],
+              "power_exponent": 1.3923754068739873
+            },
+            {
+              "distances": [
+                46,
+                48
+              ],
+              "power_exponent": 1.414898856876909
+            },
+            {
+              "distances": [
+                48,
+                50
+              ],
+              "power_exponent": 1.4398415419731292
+            },
+            {
+              "distances": [
+                50,
+                52
+              ],
+              "power_exponent": 1.4670616890562516
+            },
+            {
+              "distances": [
+                52,
+                54
+              ],
+              "power_exponent": 1.4964091470116452
+            },
+            {
+              "distances": [
+                54,
+                56
+              ],
+              "power_exponent": 1.5277306139059088
+            },
+            {
+              "distances": [
+                56,
+                58
+              ],
+              "power_exponent": 1.5608735785364043
+            },
+            {
+              "distances": [
+                58,
+                60
+              ],
+              "power_exponent": 1.5956892158055815
+            },
+            {
+              "distances": [
+                60,
+                62
+              ],
+              "power_exponent": 1.6320344434024525
+            },
+            {
+              "distances": [
+                62,
+                64
+              ],
+              "power_exponent": 1.669773313375186
+            },
+            {
+              "distances": [
+                64,
+                66
+              ],
+              "power_exponent": 1.708777883156423
+            },
+            {
+              "distances": [
+                66,
+                68
+              ],
+              "power_exponent": 1.7489286860308315
+            },
+            {
+              "distances": [
+                68,
+                70
+              ],
+              "power_exponent": 1.790114898366828
+            },
+            {
+              "distances": [
+                70,
+                72
+              ],
+              "power_exponent": 1.8322342813146981
+            },
+            {
+              "distances": [
+                72,
+                74
+              ],
+              "power_exponent": 1.8751929592486878
+            },
+            {
+              "distances": [
+                74,
+                76
+              ],
+              "power_exponent": 1.9189050853771654
+            },
+            {
+              "distances": [
+                76,
+                78
+              ],
+              "power_exponent": 1.9632924307137802
+            },
+            {
+              "distances": [
+                78,
+                80
+              ],
+              "power_exponent": 2.008283927564111
+            },
+            {
+              "distances": [
+                80,
+                82
+              ],
+              "power_exponent": 2.0538151881849527
+            },
+            {
+              "distances": [
+                82,
+                84
+              ],
+              "power_exponent": 2.0998280179894198
+            },
+            {
+              "distances": [
+                84,
+                86
+              ],
+              "power_exponent": 2.1462699314069136
+            },
+            {
+              "distances": [
+                86,
+                88
+              ],
+              "power_exponent": 2.1930936835937382
+            },
+            {
+              "distances": [
+                88,
+                90
+              ],
+              "power_exponent": 2.2402568206634546
+            },
+            {
+              "distances": [
+                90,
+                92
+              ],
+              "power_exponent": 2.287721252995765
+            },
+            {
+              "distances": [
+                92,
+                94
+              ],
+              "power_exponent": 2.335452856812583
+            },
+            {
+              "distances": [
+                94,
+                96
+              ],
+              "power_exponent": 2.383421100629511
+            },
+            {
+              "distances": [
+                3,
+                5
+              ],
+              "power_exponent": 1.3783243041220692
+            },
+            {
+              "distances": [
+                5,
+                7
+              ],
+              "power_exponent": 1.373546677785769
+            },
+            {
+              "distances": [
+                7,
+                9
+              ],
+              "power_exponent": 1.3230392061670184
+            },
+            {
+              "distances": [
+                9,
+                11
+              ],
+              "power_exponent": 1.293926308486222
+            },
+            {
+              "distances": [
+                11,
+                13
+              ],
+              "power_exponent": 1.285214939604763
+            },
+            {
+              "distances": [
+                13,
+                15
+              ],
+              "power_exponent": 1.2873926286777662
+            },
+            {
+              "distances": [
+                15,
+                17
+              ],
+              "power_exponent": 1.2932570230516023
+            },
+            {
+              "distances": [
+                17,
+                19
+              ],
+              "power_exponent": 1.2988440141310391
+            },
+            {
+              "distances": [
+                19,
+                21
+              ],
+              "power_exponent": 1.3026024349913763
+            },
+            {
+              "distances": [
+                21,
+                23
+              ],
+              "power_exponent": 1.304426698121882
+            },
+            {
+              "distances": [
+                23,
+                25
+              ],
+              "power_exponent": 1.3049233005005978
+            },
+            {
+              "distances": [
+                25,
+                27
+              ],
+              "power_exponent": 1.3049505301304658
+            },
+            {
+              "distances": [
+                27,
+                29
+              ],
+              "power_exponent": 1.3053680775161218
+            },
+            {
+              "distances": [
+                29,
+                31
+              ],
+              "power_exponent": 1.3069210119136414
+            },
+            {
+              "distances": [
+                31,
+                33
+              ],
+              "power_exponent": 1.310199959328899
+            },
+            {
+              "distances": [
+                33,
+                35
+              ],
+              "power_exponent": 1.3156400886821975
+            },
+            {
+              "distances": [
+                35,
+                37
+              ],
+              "power_exponent": 1.3235373817419605
+            },
+            {
+              "distances": [
+                37,
+                39
+              ],
+              "power_exponent": 1.3340708176469185
+            },
+            {
+              "distances": [
+                39,
+                41
+              ],
+              "power_exponent": 1.3473249561761793
+            },
+            {
+              "distances": [
+                41,
+                43
+              ],
+              "power_exponent": 1.3633105290629208
+            },
+            {
+              "distances": [
+                43,
+                45
+              ],
+              "power_exponent": 1.3819822104517823
+            },
+            {
+              "distances": [
+                45,
+                47
+              ],
+              "power_exponent": 1.4032534660680396
+            },
+            {
+              "distances": [
+                47,
+                49
+              ],
+              "power_exponent": 1.4270086921485963
+            },
+            {
+              "distances": [
+                49,
+                51
+              ],
+              "power_exponent": 1.4531129651456063
+            },
+            {
+              "distances": [
+                51,
+                53
+              ],
+              "power_exponent": 1.4814197461864316
+            },
+            {
+              "distances": [
+                53,
+                55
+              ],
+              "power_exponent": 1.5117768671101446
+            },
+            {
+              "distances": [
+                55,
+                57
+              ],
+              "power_exponent": 1.5440310924746319
+            },
+            {
+              "distances": [
+                57,
+                59
+              ],
+              "power_exponent": 1.578031518431854
+            },
+            {
+              "distances": [
+                59,
+                61
+              ],
+              "power_exponent": 1.613632031100885
+            },
+            {
+              "distances": [
+                61,
+                63
+              ],
+              "power_exponent": 1.6506930155495612
+            },
+            {
+              "distances": [
+                63,
+                65
+              ],
+              "power_exponent": 1.689082473704099
+            },
+            {
+              "distances": [
+                65,
+                67
+              ],
+              "power_exponent": 1.7286766846865114
+            },
+            {
+              "distances": [
+                67,
+                69
+              ],
+              "power_exponent": 1.7693605146255467
+            },
+            {
+              "distances": [
+                69,
+                71
+              ],
+              "power_exponent": 1.81102746334758
+            },
+            {
+              "distances": [
+                71,
+                73
+              ],
+              "power_exponent": 1.8535795191923132
+            },
+            {
+              "distances": [
+                73,
+                75
+              ],
+              "power_exponent": 1.8969268760916382
+            },
+            {
+              "distances": [
+                75,
+                77
+              ],
+              "power_exponent": 1.9409875571280357
+            },
+            {
+              "distances": [
+                77,
+                79
+              ],
+              "power_exponent": 1.9856869782711197
+            },
+            {
+              "distances": [
+                79,
+                81
+              ],
+              "power_exponent": 2.030957476991926
+            },
+            {
+              "distances": [
+                81,
+                83
+              ],
+              "power_exponent": 2.0767378271290657
+            },
+            {
+              "distances": [
+                83,
+                85
+              ],
+              "power_exponent": 2.122972751728474
+            },
+            {
+              "distances": [
+                85,
+                87
+              ],
+              "power_exponent": 2.169612446151837
+            },
+            {
+              "distances": [
+                87,
+                89
+              ],
+              "power_exponent": 2.2166121188311823
+            },
+            {
+              "distances": [
+                89,
+                91
+              ],
+              "power_exponent": 2.2639315523028767
+            },
+            {
+              "distances": [
+                91,
+                93
+              ],
+              "power_exponent": 2.311534691043899
+            },
+            {
+              "distances": [
+                93,
+                95
+              ],
+              "power_exponent": 2.3593892548466977
+            },
+            {
+              "distances": [
+                95,
+                97
+              ],
+              "power_exponent": 2.407466378999888
+            }
+          ]
+        }
+      }
+    }
+  ]
+}

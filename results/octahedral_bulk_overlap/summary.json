@@ -1,0 +1,463 @@
+{
+  "status": "Exploratory finite periodic boxes; no established bulk correlation length. Delete-one-block jackknife errors are statistical diagnostics only and do not include possible mixing bias.",
+  "observable": "C(r)=<S_i dot S_j>, same physical edge axis, displacement parallel or perpendicular to that axis; randomized origins and axes.",
+  "sampling": "Target |<bra|ket>| times bounded bias; all observables and signs reweighted by inverse bias. Each individual contraction exact.",
+  "runs": [
+    {
+      "L": 3,
+      "steps": 10000,
+      "seed": 93943,
+      "initial": "diagonal",
+      "seconds": 14.135302786000466,
+      "moves": {
+        "joint_line": [
+          1975,
+          1964
+        ],
+        "single_cube": [
+          1961,
+          8
+        ],
+        "single_line": [
+          3978,
+          1765
+        ],
+        "joint_cube": [
+          2086,
+          1284
+        ]
+      },
+      "negative_proposals": 0,
+      "file": "mcmc_L3_diagonal_93943.json",
+      "bias": 1,
+      "burn_in_steps": 2500,
+      "measurements": 300,
+      "mean_sign": 1.0,
+      "importance_weight_effective_samples": 300.0,
+      "diagnostic_trimer_difference_fraction": 0.06666666666666667,
+      "diagnostic_trimer_difference_weighted_fraction": 0.06666666666666667,
+      "correlations": {
+        "spin_parallel": {
+          "value": -0.6133333333333332,
+          "block_standard_error": 0.0799999999999999,
+          "nonzero_measurements": 140,
+          "nonzero_seen": true
+        },
+        "spin_perpendicular": {
+          "value": -0.0008333333333333183,
+          "block_standard_error": 0.00985827938915405,
+          "nonzero_measurements": 5,
+          "nonzero_seen": true
+        }
+      }
+    },
+    {
+      "L": 3,
+      "steps": 10000,
+      "seed": 93001,
+      "initial": "independent",
+      "seconds": 15.495482098999673,
+      "moves": {
+        "joint_cube": [
+          1950,
+          1210
+        ],
+        "single_line": [
+          4069,
+          1858
+        ],
+        "single_cube": [
+          2000,
+          13
+        ],
+        "joint_line": [
+          1981,
+          1977
+        ]
+      },
+      "negative_proposals": 0,
+      "file": "mcmc_L3_independent_93001.json",
+      "bias": 1,
+      "burn_in_steps": 2500,
+      "measurements": 300,
+      "mean_sign": 1.0,
+      "importance_weight_effective_samples": 300.0,
+      "diagnostic_trimer_difference_fraction": 0.0,
+      "diagnostic_trimer_difference_weighted_fraction": 0.0,
+      "correlations": {
+        "spin_parallel": {
+          "value": -0.6199999999999998,
+          "block_standard_error": 0.06858639491365227,
+          "nonzero_measurements": 143,
+          "nonzero_seen": true
+        },
+        "spin_perpendicular": {
+          "value": 0.008333333333333325,
+          "block_standard_error": 0.0033113308926626065,
+          "nonzero_measurements": 5,
+          "nonzero_seen": true
+        }
+      }
+    },
+    {
+      "L": 3,
+      "steps": 10000,
+      "seed": 19001,
+      "initial": "trimer",
+      "seconds": 14.317825150999852,
+      "moves": {
+        "single_line": [
+          4042,
+          1893
+        ],
+        "joint_line": [
+          1993,
+          1993
+        ],
+        "single_cube": [
+          1991,
+          0
+        ],
+        "joint_cube": [
+          1974,
+          1211
+        ]
+      },
+      "negative_proposals": 0,
+      "file": "mcmc_L3_trimer_19001.json",
+      "bias": 1,
+      "burn_in_steps": 2500,
+      "measurements": 300,
+      "mean_sign": 1.0,
+      "importance_weight_effective_samples": 300.0,
+      "diagnostic_trimer_difference_fraction": 0.0,
+      "diagnostic_trimer_difference_weighted_fraction": 0.0,
+      "correlations": {
+        "spin_parallel": {
+          "value": -0.6199999999999997,
+          "block_standard_error": 0.0805100698361965,
+          "nonzero_measurements": 135,
+          "nonzero_seen": true
+        },
+        "spin_perpendicular": {
+          "value": 0.004999999999999997,
+          "block_standard_error": 0.003647477699349436,
+          "nonzero_measurements": 5,
+          "nonzero_seen": true
+        }
+      }
+    },
+    {
+      "L": 4,
+      "steps": 4000,
+      "seed": 29383,
+      "initial": "diagonal",
+      "seconds": 6.537874665000345,
+      "moves": {
+        "single_cube": [
+          850,
+          0
+        ],
+        "joint_line": [
+          799,
+          799
+        ],
+        "single_line": [
+          1606,
+          369
+        ],
+        "joint_cube": [
+          745,
+          560
+        ]
+      },
+      "negative_proposals": 0,
+      "file": "mcmc_L4_diagonal_29383.json",
+      "bias": 1,
+      "burn_in_steps": 1000,
+      "measurements": 120,
+      "mean_sign": 1.0,
+      "importance_weight_effective_samples": 120.0,
+      "diagnostic_trimer_difference_fraction": 0.0,
+      "diagnostic_trimer_difference_weighted_fraction": 0.0,
+      "correlations": {
+        "spin_parallel": {
+          "value": -0.6333333333333327,
+          "block_standard_error": 0.10787690624311026,
+          "nonzero_measurements": 48,
+          "nonzero_seen": true
+        },
+        "spin_perpendicular": {
+          "value": 0.0,
+          "block_standard_error": 0.0,
+          "nonzero_measurements": 0,
+          "nonzero_seen": false
+        }
+      }
+    },
+    {
+      "L": 4,
+      "steps": 100000,
+      "seed": 39383,
+      "initial": "diagonal",
+      "seconds": 167.69227050100017,
+      "moves": {
+        "single_cube": [
+          20076,
+          4
+        ],
+        "joint_cube": [
+          19939,
+          13212
+        ],
+        "single_line": [
+          40049,
+          9938
+        ],
+        "joint_line": [
+          19936,
+          19930
+        ]
+      },
+      "negative_proposals": 0,
+      "file": "mcmc_L4_diagonal_39383.json",
+      "bias": 1,
+      "burn_in_steps": 25000,
+      "measurements": 3000,
+      "mean_sign": 1.0,
+      "importance_weight_effective_samples": 3000.0,
+      "diagnostic_trimer_difference_fraction": 0.006666666666666667,
+      "diagnostic_trimer_difference_weighted_fraction": 0.006666666666666667,
+      "correlations": {
+        "spin_parallel_1": {
+          "value": -0.568666666666667,
+          "block_standard_error": 0.020616804591860306,
+          "nonzero_measurements": 1121,
+          "nonzero_seen": true
+        },
+        "spin_parallel_2": {
+          "value": 0.08,
+          "block_standard_error": 0.011647854507156347,
+          "nonzero_measurements": 420,
+          "nonzero_seen": true
+        },
+        "spin_perpendicular_1": {
+          "value": 0.0030833333333333394,
+          "block_standard_error": 0.0014523372975073607,
+          "nonzero_measurements": 29,
+          "nonzero_seen": true
+        },
+        "spin_perpendicular_2": {
+          "value": -0.0021666666666666653,
+          "block_standard_error": 0.0010051039339932235,
+          "nonzero_measurements": 27,
+          "nonzero_seen": true
+        }
+      }
+    },
+    {
+      "L": 4,
+      "steps": 100000,
+      "seed": 49383,
+      "initial": "independent",
+      "seconds": 179.5642938430001,
+      "moves": {
+        "joint_line": [
+          20205,
+          20184
+        ],
+        "joint_cube": [
+          19849,
+          13350
+        ],
+        "single_line": [
+          39788,
+          9674
+        ],
+        "single_cube": [
+          20158,
+          33
+        ]
+      },
+      "negative_proposals": 0,
+      "file": "mcmc_L4_independent_49383.json",
+      "bias": 1,
+      "burn_in_steps": 25000,
+      "measurements": 3000,
+      "mean_sign": 1.0,
+      "importance_weight_effective_samples": 3000.0,
+      "diagnostic_trimer_difference_fraction": 0.01633333333333333,
+      "diagnostic_trimer_difference_weighted_fraction": 0.01633333333333333,
+      "correlations": {
+        "spin_parallel_1": {
+          "value": -0.551333333333333,
+          "block_standard_error": 0.018763533127814584,
+          "nonzero_measurements": 1095,
+          "nonzero_seen": true
+        },
+        "spin_parallel_2": {
+          "value": 0.07718749999999995,
+          "block_standard_error": 0.015492136133567678,
+          "nonzero_measurements": 414,
+          "nonzero_seen": true
+        },
+        "spin_perpendicular_1": {
+          "value": 0.004666666666666667,
+          "block_standard_error": 0.0010373154736206668,
+          "nonzero_measurements": 34,
+          "nonzero_seen": true
+        },
+        "spin_perpendicular_2": {
+          "value": -0.0017500000000000011,
+          "block_standard_error": 0.0009005764885316003,
+          "nonzero_measurements": 27,
+          "nonzero_seen": true
+        }
+      }
+    },
+    {
+      "L": 6,
+      "steps": 20000,
+      "seed": 49313,
+      "initial": "diagonal",
+      "seconds": 128.8038380779999,
+      "moves": {
+        "single_cube": [
+          3924,
+          8
+        ],
+        "joint_cube": [
+          4087,
+          3726
+        ],
+        "joint_line": [
+          4101,
+          4074
+        ],
+        "single_line": [
+          7888,
+          431
+        ]
+      },
+      "negative_proposals": 0,
+      "file": "mcmc_L6_diagonal_49313.json",
+      "bias": 1,
+      "burn_in_steps": 5000,
+      "measurements": 600,
+      "mean_sign": 1.0,
+      "importance_weight_effective_samples": 600.0,
+      "diagnostic_trimer_difference_fraction": 0.09,
+      "diagnostic_trimer_difference_weighted_fraction": 0.09,
+      "correlations": {
+        "spin_parallel_1": {
+          "value": -0.46666666666666695,
+          "block_standard_error": 0.030588764516074802,
+          "nonzero_measurements": 150,
+          "nonzero_seen": true
+        },
+        "spin_parallel_2": {
+          "value": 0.0033333333333333474,
+          "block_standard_error": 0.009015905373705018,
+          "nonzero_measurements": 7,
+          "nonzero_seen": true
+        },
+        "spin_parallel_3": {
+          "value": -0.010000000000000042,
+          "block_standard_error": 0.011108186749667927,
+          "nonzero_measurements": 7,
+          "nonzero_seen": true
+        },
+        "spin_perpendicular_1": {
+          "value": 0.002083333333333307,
+          "block_standard_error": 0.002083333333333307,
+          "nonzero_measurements": 1,
+          "nonzero_seen": true
+        },
+        "spin_perpendicular_2": {
+          "value": -0.0016666666666666674,
+          "block_standard_error": 0.0011470786693528097,
+          "nonzero_measurements": 2,
+          "nonzero_seen": true
+        },
+        "spin_perpendicular_3": {
+          "value": 0.0008333333333333337,
+          "block_standard_error": 0.0008333333333333333,
+          "nonzero_measurements": 1,
+          "nonzero_seen": true
+        }
+      }
+    },
+    {
+      "L": 6,
+      "steps": 30000,
+      "seed": 99295,
+      "initial": "diagonal",
+      "seconds": 122.84629628699986,
+      "moves": {
+        "single_line": [
+          12017,
+          698
+        ],
+        "single_cube": [
+          5935,
+          41
+        ],
+        "joint_cube": [
+          6009,
+          5393
+        ],
+        "joint_line": [
+          6039,
+          5940
+        ]
+      },
+      "negative_proposals": 0,
+      "file": "mcmc_L6_diagonal_99295_bias100.json",
+      "bias": 100.0,
+      "burn_in_steps": 7500,
+      "measurements": 900,
+      "mean_sign": 1.0,
+      "importance_weight_effective_samples": 435.484285551326,
+      "diagnostic_trimer_difference_fraction": 0.5266666666666666,
+      "diagnostic_trimer_difference_weighted_fraction": 0.011004318150160189,
+      "correlations": {
+        "spin_parallel_1": {
+          "value": -0.5958118586618392,
+          "block_standard_error": 0.05021630000192812,
+          "nonzero_measurements": 277,
+          "nonzero_seen": true
+        },
+        "spin_parallel_2": {
+          "value": 0.014068811812230434,
+          "block_standard_error": 0.014788227433226761,
+          "nonzero_measurements": 24,
+          "nonzero_seen": true
+        },
+        "spin_parallel_3": {
+          "value": 0.013790221479314989,
+          "block_standard_error": 0.016172793425229995,
+          "nonzero_measurements": 22,
+          "nonzero_seen": true
+        },
+        "spin_perpendicular_1": {
+          "value": 0.0012014208106978707,
+          "block_standard_error": 0.00118330735305995,
+          "nonzero_measurements": 11,
+          "nonzero_seen": true
+        },
+        "spin_perpendicular_2": {
+          "value": 1.1607930538143928e-05,
+          "block_standard_error": 0.0016433214816645968,
+          "nonzero_measurements": 3,
+          "nonzero_seen": true
+        },
+        "spin_perpendicular_3": {
+          "value": 0.0023099781770905894,
+          "block_standard_error": 0.0016734125218500985,
+          "nonzero_measurements": 3,
+          "nonzero_seen": true
+        }
+      }
+    }
+  ]
+}

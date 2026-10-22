@@ -1,0 +1,506 @@
+{
+  "source": "arXiv:1203.4816v3, PDF page 7, Figure 11",
+  "source_pdf_sha256": "d8f72b3c2efabf94919945ebee0755e54413da08b378505e048493e0e7c872d2",
+  "method": "Extraction of plotted polyline vertices from the PDF vector content stream",
+  "data_status": "Published plotted coordinates, NOT original raw numerical data or a new simulation",
+  "observable_as_printed": "Connected correlation of two z tensor z operators, z=diag(1,-1,1)",
+  "geometry_as_printed": "Infinite system; dimers on two blocked Fig.10b tensors in the same row",
+  "calibration": {
+    "r1_raw_x": 3630.52,
+    "r2_raw_x": 4191.34,
+    "log10_minus6_raw_y": 1381.58,
+    "log10_minus1_raw_y": 2598.48
+  },
+  "precision_note": "Coordinate rounding and plotting precision limit accuracy; report about 3 significant figures. No statistical error bars are available. Values clipped below 1e-6 are omitted, not zero.",
+  "theta_assignment": "Paper labels order curves theta=0.9 down to 0 from steepest to shallowest; script checks this order from first line-segment slopes.",
+  "curves": [
+    {
+      "theta": 0.9,
+      "boundary_dimension": 40,
+      "points": [
+        {
+          "r": 1,
+          "correlation": 0.06247559655150199,
+          "raw_pdf_xy": [
+            3630.52,
+            2548.76
+          ]
+        }
+      ]
+    },
+    {
+      "theta": 0.8,
+      "boundary_dimension": 40,
+      "points": [
+        {
+          "r": 1,
+          "correlation": 0.06247559655150199,
+          "raw_pdf_xy": [
+            3630.52,
+            2548.76
+          ]
+        }
+      ]
+    },
+    {
+      "theta": 0.7,
+      "boundary_dimension": 40,
+      "points": [
+        {
+          "r": 1,
+          "correlation": 0.06247559655150199,
+          "raw_pdf_xy": [
+            3630.52,
+            2548.76
+          ]
+        }
+      ]
+    },
+    {
+      "theta": 0.6,
+      "boundary_dimension": 40,
+      "points": [
+        {
+          "r": 1,
+          "correlation": 0.06258208035695884,
+          "raw_pdf_xy": [
+            3630.52,
+            2548.94
+          ]
+        },
+        {
+          "r": 2,
+          "correlation": 5.878828906246097e-06,
+          "raw_pdf_xy": [
+            4191.34,
+            1568.81
+          ]
+        }
+      ]
+    },
+    {
+      "theta": 0.5,
+      "boundary_dimension": 40,
+      "points": [
+        {
+          "r": 1,
+          "correlation": 0.06268281503763919,
+          "raw_pdf_xy": [
+            3630.52,
+            2549.11
+          ]
+        },
+        {
+          "r": 2,
+          "correlation": 3.519082528365782e-05,
+          "raw_pdf_xy": [
+            4191.34,
+            1757.95
+          ]
+        }
+      ]
+    },
+    {
+      "theta": 0.4,
+      "boundary_dimension": 40,
+      "points": [
+        {
+          "r": 1,
+          "correlation": 0.06299195230517428,
+          "raw_pdf_xy": [
+            3630.52,
+            2549.63
+          ]
+        },
+        {
+          "r": 2,
+          "correlation": 0.00011220290696162391,
+          "raw_pdf_xy": [
+            4191.34,
+            1880.51
+          ]
+        }
+      ]
+    },
+    {
+      "theta": 0.3,
+      "boundary_dimension": 40,
+      "points": [
+        {
+          "r": 1,
+          "correlation": 0.06362082693672831,
+          "raw_pdf_xy": [
+            3630.52,
+            2550.68
+          ]
+        },
+        {
+          "r": 2,
+          "correlation": 0.00027226935803568026,
+          "raw_pdf_xy": [
+            4191.34,
+            1974.21
+          ]
+        },
+        {
+          "r": 3,
+          "correlation": 3.7398057296756474e-06,
+          "raw_pdf_xy": [
+            4752.15,
+            1521.0
+          ]
+        }
+      ]
+    },
+    {
+      "theta": 0.2,
+      "boundary_dimension": 40,
+      "points": [
+        {
+          "r": 1,
+          "correlation": 0.0644630044825471,
+          "raw_pdf_xy": [
+            3630.52,
+            2552.07
+          ]
+        },
+        {
+          "r": 2,
+          "correlation": 0.00052048779652759,
+          "raw_pdf_xy": [
+            4191.34,
+            2042.7
+          ]
+        },
+        {
+          "r": 3,
+          "correlation": 1.2222151713432264e-05,
+          "raw_pdf_xy": [
+            4752.15,
+            1646.17
+          ]
+        }
+      ]
+    },
+    {
+      "theta": 0.1,
+      "boundary_dimension": 40,
+      "points": [
+        {
+          "r": 1,
+          "correlation": 0.06542146615335732,
+          "raw_pdf_xy": [
+            3630.52,
+            2553.63
+          ]
+        },
+        {
+          "r": 2,
+          "correlation": 0.0007648153191044084,
+          "raw_pdf_xy": [
+            4191.34,
+            2083.38
+          ]
+        },
+        {
+          "r": 3,
+          "correlation": 2.038306339310683e-05,
+          "raw_pdf_xy": [
+            4752.15,
+            1700.23
+          ]
+        },
+        {
+          "r": 4,
+          "correlation": 1.3246878935155079e-06,
+          "raw_pdf_xy": [
+            5312.8,
+            1411.3
+          ]
+        }
+      ]
+    },
+    {
+      "theta": 0.0,
+      "boundary_dimension": 40,
+      "points": [
+        {
+          "r": 1,
+          "correlation": 0.06584993423294881,
+          "raw_pdf_xy": [
+            3630.52,
+            2554.32
+          ]
+        },
+        {
+          "r": 2,
+          "correlation": 0.000873792870766719,
+          "raw_pdf_xy": [
+            4191.34,
+            2097.46
+          ]
+        },
+        {
+          "r": 3,
+          "correlation": 2.5118389027271564e-05,
+          "raw_pdf_xy": [
+            4752.15,
+            1722.31
+          ]
+        },
+        {
+          "r": 4,
+          "correlation": 1.8712244939458326e-06,
+          "raw_pdf_xy": [
+            5312.8,
+            1447.81
+          ]
+        }
+      ]
+    },
+    {
+      "theta": 0.9,
+      "boundary_dimension": 60,
+      "points": [
+        {
+          "r": 1,
+          "correlation": 0.06247559655150199,
+          "raw_pdf_xy": [
+            3630.52,
+            2548.76
+          ]
+        }
+      ]
+    },
+    {
+      "theta": 0.8,
+      "boundary_dimension": 60,
+      "points": [
+        {
+          "r": 1,
+          "correlation": 0.06247559655150199,
+          "raw_pdf_xy": [
+            3630.52,
+            2548.76
+          ]
+        }
+      ]
+    },
+    {
+      "theta": 0.7,
+      "boundary_dimension": 60,
+      "points": [
+        {
+          "r": 1,
+          "correlation": 0.06247559655150199,
+          "raw_pdf_xy": [
+            3630.52,
+            2548.76
+          ]
+        }
+      ]
+    },
+    {
+      "theta": 0.6,
+      "boundary_dimension": 60,
+      "points": [
+        {
+          "r": 1,
+          "correlation": 0.06258208035695884,
+          "raw_pdf_xy": [
+            3630.52,
+            2548.94
+          ]
+        },
+        {
+          "r": 2,
+          "correlation": 8.021672654792799e-06,
+          "raw_pdf_xy": [
+            4191.34,
+            1601.66
+          ]
+        }
+      ]
+    },
+    {
+      "theta": 0.5,
+      "boundary_dimension": 60,
+      "points": [
+        {
+          "r": 1,
+          "correlation": 0.06268281503763919,
+          "raw_pdf_xy": [
+            3630.52,
+            2549.11
+          ]
+        },
+        {
+          "r": 2,
+          "correlation": 3.5307545890481994e-05,
+          "raw_pdf_xy": [
+            4191.34,
+            1758.3
+          ]
+        }
+      ]
+    },
+    {
+      "theta": 0.4,
+      "boundary_dimension": 60,
+      "points": [
+        {
+          "r": 1,
+          "correlation": 0.06299195230517428,
+          "raw_pdf_xy": [
+            3630.52,
+            2549.63
+          ]
+        },
+        {
+          "r": 2,
+          "correlation": 0.00011313025491484654,
+          "raw_pdf_xy": [
+            4191.34,
+            1881.38
+          ]
+        }
+      ]
+    },
+    {
+      "theta": 0.3,
+      "boundary_dimension": 60,
+      "points": [
+        {
+          "r": 1,
+          "correlation": 0.06362082693672831,
+          "raw_pdf_xy": [
+            3630.52,
+            2550.68
+          ]
+        },
+        {
+          "r": 2,
+          "correlation": 0.00027723405505975055,
+          "raw_pdf_xy": [
+            4191.34,
+            1976.12
+          ]
+        },
+        {
+          "r": 3,
+          "correlation": 3.182988523373611e-06,
+          "raw_pdf_xy": [
+            4752.15,
+            1503.96
+          ]
+        }
+      ]
+    },
+    {
+      "theta": 0.2,
+      "boundary_dimension": 60,
+      "points": [
+        {
+          "r": 1,
+          "correlation": 0.06456676677576584,
+          "raw_pdf_xy": [
+            3630.52,
+            2552.24
+          ]
+        },
+        {
+          "r": 2,
+          "correlation": 0.0005343588645134958,
+          "raw_pdf_xy": [
+            4191.34,
+            2045.48
+          ]
+        },
+        {
+          "r": 3,
+          "correlation": 1.0523166396001082e-05,
+          "raw_pdf_xy": [
+            4752.15,
+            1630.35
+          ]
+        }
+      ]
+    },
+    {
+      "theta": 0.1,
+      "boundary_dimension": 60,
+      "points": [
+        {
+          "r": 1,
+          "correlation": 0.06552677122575198,
+          "raw_pdf_xy": [
+            3630.52,
+            2553.8
+          ]
+        },
+        {
+          "r": 2,
+          "correlation": 0.0007749395240143578,
+          "raw_pdf_xy": [
+            4191.34,
+            2084.77
+          ]
+        },
+        {
+          "r": 3,
+          "correlation": 2.0961941579823745e-05,
+          "raw_pdf_xy": [
+            4752.15,
+            1703.19
+          ]
+        },
+        {
+          "r": 4,
+          "correlation": 1.0148683989910789e-06,
+          "raw_pdf_xy": [
+            5312.8,
+            1383.14
+          ]
+        }
+      ]
+    },
+    {
+      "theta": 0.0,
+      "boundary_dimension": 60,
+      "points": [
+        {
+          "r": 1,
+          "correlation": 0.06584993423294881,
+          "raw_pdf_xy": [
+            3630.52,
+            2554.32
+          ]
+        },
+        {
+          "r": 2,
+          "correlation": 0.0008839368396656604,
+          "raw_pdf_xy": [
+            4191.34,
+            2098.68
+          ]
+        },
+        {
+          "r": 3,
+          "correlation": 2.4346287092264174e-05,
+          "raw_pdf_xy": [
+            4752.15,
+            1719.01
+          ]
+        },
+        {
+          "r": 4,
+          "correlation": 1.516020487044198e-06,
+          "raw_pdf_xy": [
+            5312.8,
+            1425.56
+          ]
+        }
+      ]
+    }
+  ]
+}

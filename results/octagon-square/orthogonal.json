@@ -1,0 +1,238 @@
+{
+  "lattice": "decorated square-octagon",
+  "unit_cells": [
+    16,
+    4
+  ],
+  "geometry": "periodic torus",
+  "sites": 512,
+  "model": "equal-amplitude orthogonal fully packed dimers",
+  "empty_dummy_rule": "the two permanent spins form an internal dummy-edge singlet",
+  "method": "exact affine GF(2) occupation probabilities, no sampling",
+  "covering_count_log2": 129,
+  "square_loop_preimage_count_log2": 64,
+  "square_loop_projection_convention": "Legacy small-square collapse; retains dummy-link bits, not the dummy-contraction map",
+  "dummy_contraction_preimage_count_log2": 0,
+  "dummy_contraction_vertices": 128,
+  "dummy_contraction_edges": 256,
+  "plane_occupation_correlation_range": "same or nearest-neighbor original-square cells only",
+  "exponential_correlation_length": null,
+  "correlation_length_status": "strictly finite range; no nonzero exponential tail to fit",
+  "distance_unit": "simulation-cell translation along x; one cell contains one small square",
+  "distance": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8
+  ],
+  "families": [
+    {
+      "bond_kind": "triangle",
+      "reference_edge": [
+        0,
+        3
+      ],
+      "occupation": 0.25,
+      "connected_correlation": [
+        0.1875,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "nonzero_correlations_with_reference": [
+        {
+          "edge_index": 0,
+          "edge": [
+            0,
+            3
+          ],
+          "connected_correlation": 0.1875
+        },
+        {
+          "edge_index": 1,
+          "edge": [
+            3,
+            4
+          ],
+          "connected_correlation": -0.0625
+        },
+        {
+          "edge_index": 2,
+          "edge": [
+            4,
+            0
+          ],
+          "connected_correlation": -0.0625
+        },
+        {
+          "edge_index": 3,
+          "edge": [
+            1,
+            0
+          ],
+          "connected_correlation": -0.0625
+        },
+        {
+          "edge_index": 4,
+          "edge": [
+            0,
+            5
+          ],
+          "connected_correlation": -0.0625
+        },
+        {
+          "edge_index": 5,
+          "edge": [
+            5,
+            1
+          ],
+          "connected_correlation": 0.0625
+        },
+        {
+          "edge_index": 9,
+          "edge": [
+            3,
+            2
+          ],
+          "connected_correlation": -0.0625
+        },
+        {
+          "edge_index": 10,
+          "edge": [
+            2,
+            7
+          ],
+          "connected_correlation": 0.0625
+        },
+        {
+          "edge_index": 11,
+          "edge": [
+            7,
+            3
+          ],
+          "connected_correlation": -0.0625
+        },
+        {
+          "edge_index": 54,
+          "edge": [
+            34,
+            33
+          ],
+          "connected_correlation": 0.0625
+        },
+        {
+          "edge_index": 55,
+          "edge": [
+            33,
+            38
+          ],
+          "connected_correlation": -0.0625
+        },
+        {
+          "edge_index": 56,
+          "edge": [
+            38,
+            34
+          ],
+          "connected_correlation": -0.0625
+        },
+        {
+          "edge_index": 768,
+          "edge": [
+            4,
+            38
+          ],
+          "connected_correlation": 0.125
+        }
+      ]
+    },
+    {
+      "bond_kind": "dummy",
+      "reference_edge": [
+        4,
+        38
+      ],
+      "occupation": 0.5,
+      "connected_correlation": [
+        0.25,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "nonzero_correlations_with_reference": [
+        {
+          "edge_index": 0,
+          "edge": [
+            0,
+            3
+          ],
+          "connected_correlation": 0.125
+        },
+        {
+          "edge_index": 1,
+          "edge": [
+            3,
+            4
+          ],
+          "connected_correlation": -0.125
+        },
+        {
+          "edge_index": 2,
+          "edge": [
+            4,
+            0
+          ],
+          "connected_correlation": -0.125
+        },
+        {
+          "edge_index": 54,
+          "edge": [
+            34,
+            33
+          ],
+          "connected_correlation": 0.125
+        },
+        {
+          "edge_index": 55,
+          "edge": [
+            33,
+            38
+          ],
+          "connected_correlation": -0.125
+        },
+        {
+          "edge_index": 56,
+          "edge": [
+            38,
+            34
+          ],
+          "connected_correlation": -0.125
+        },
+        {
+          "edge_index": 768,
+          "edge": [
+            4,
+            38
+          ],
+          "connected_correlation": 0.25
+        }
+      ]
+    }
+  ],
+  "interpretation": "The reported exact zeros are finite-range occupation correlations, not an exponential fit. These are not spin-singlet RVB correlations or correlations of loop connectivity. Uniform square even-subgraphs are not the ordinary close-packed square dimer model."
+}

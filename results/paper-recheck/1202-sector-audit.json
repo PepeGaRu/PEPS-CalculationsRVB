@@ -1,0 +1,66 @@
+[
+  {
+    "lattice": "square",
+    "width": 4,
+    "mean_bond": -0.3950960932246442,
+    "active_dimension": 2401,
+    "eigen_residual": 1.1114776625550235e-15,
+    "sectors": [
+      {
+        "ket": 0,
+        "bra": 0,
+        "right_norm_squared_fraction": 1.0,
+        "left_right_overlap_fraction": 0.9999999999999998,
+        "dimension": 353
+      }
+    ]
+  },
+  {
+    "lattice": "square",
+    "width": 6,
+    "mean_bond": -0.3342118935496311,
+    "active_dimension": 117649,
+    "eigen_residual": 5.7364075329894674e-15,
+    "sectors": [
+      {
+        "ket": 0,
+        "bra": 0,
+        "right_norm_squared_fraction": 1.0,
+        "left_right_overlap_fraction": 0.9999999999999998,
+        "dimension": 11965
+      }
+    ]
+  },
+  {
+    "lattice": "kagome",
+    "width": 2,
+    "mean_bond": -0.23191469097666614,
+    "active_dimension": 63,
+    "eigen_residual": 7.833270316651721e-16,
+    "sectors": [
+      {
+        "ket": 1,
+        "bra": 1,
+        "right_norm_squared_fraction": 1.0,
+        "left_right_overlap_fraction": 1.0,
+        "dimension": 16
+      }
+    ]
+  },
+  {
+    "lattice": "kagome",
+    "width": 4,
+    "mean_bond": -0.2004001398717752,
+    "active_dimension": 5571,
+    "eigen_residual": 1.8054089853760733e-15,
+    "sectors": [
+      {
+        "ket": 0,
+        "bra": 0,
+        "right_norm_squared_fraction": 1.0,
+        "left_right_overlap_fraction": 0.999999999999999,
+        "dimension": 1379
+      }
+    ]
+  }
+]

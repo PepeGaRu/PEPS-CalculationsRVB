@@ -1,0 +1,62 @@
+{
+  "ordinary_port_order": "a=N,b=W,c=E,d=S after contraction",
+  "local_geometry": "Two actual adjacent corner triangles, rotated as in the lattice; gray L-shaped sides are upright square edges",
+  "reference": "0000 on a representative link; dummy endpoints internally paired",
+  "patterns_by_dummy_occupation": [
+    [
+      [
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        1,
+        1,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        1,
+        1
+      ],
+      [
+        1,
+        1,
+        1,
+        1
+      ]
+    ],
+    [
+      [
+        1,
+        0,
+        1,
+        0
+      ],
+      [
+        1,
+        0,
+        0,
+        1
+      ],
+      [
+        0,
+        1,
+        1,
+        0
+      ],
+      [
+        0,
+        1,
+        0,
+        1
+      ]
+    ]
+  ],
+  "locally_unused_ordinary_spins": "Covered in their other neighboring triangles",
+  "erased_dummy_loop_bit": "a XOR b = c XOR d",
+  "all_eight_even_vertices_present": true
+}

@@ -1,0 +1,25 @@
+{
+  "figure_panels": [
+    "(a) One octahedron",
+    "(b) Exact layer top view"
+  ],
+  "opening_display": "Discussed in the audit text; not drawn as a figure panel.",
+  "centre": "v=(m,n,0)",
+  "horizontal_sites": "v +/- e_x/2, v +/- e_y/2",
+  "apex_sites": "v +/- e_z/2; both project to xy=v",
+  "selected_plaquettes": "lower-left corner parity m+n odd",
+  "port_pairs_even_vertex": [
+    "NW,z+",
+    "SE,z-"
+  ],
+  "port_pairs_odd_vertex": [
+    "NE,z+",
+    "SW,z-"
+  ],
+  "opened_grey_corner": "q(v,w)=v+delta*sign(w-v)",
+  "opened_orange_site": "d(v,w)=v+delta/2*sign(w-v)",
+  "opened_blue_site": "midpoint of consecutive q corners of selected square",
+  "delta_regular": 0.20710678118654754,
+  "zero_delta_limit": "exact projected coordinates for every physical site",
+  "scope": "Geometric incidence only; face frames are not simultaneous trimers."
+}

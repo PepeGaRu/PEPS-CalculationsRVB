@@ -1,0 +1,119 @@
+/workspace/peps-environment/upstream/peps-torch/ipeps/tensor_io.py:8: Warning: yast not available
+  warnings.warn("yast not available", Warning)
+Warning: Missing arrayfire. SVDAF is not available.
+Warning: Missing arrayfire. SVDAF is not available.
+Warning: Missing cuquantum.
+Warning: Missing arrayfire. SVDAF is not available.
+CTMRG iteration=1 corner_spectrum_residual=inf
+CTMRG iteration=2 corner_spectrum_residual=0.128828
+CTMRG iteration=3 corner_spectrum_residual=0.0474387
+CTMRG iteration=4 corner_spectrum_residual=0.0140111
+CTMRG iteration=5 corner_spectrum_residual=0.004894
+CTMRG iteration=6 corner_spectrum_residual=0.00150638
+CTMRG iteration=7 corner_spectrum_residual=0.000448269
+CTMRG iteration=8 corner_spectrum_residual=0.000130586
+CTMRG iteration=9 corner_spectrum_residual=3.76507e-05
+CTMRG iteration=10 corner_spectrum_residual=1.07934e-05
+CTMRG iteration=11 corner_spectrum_residual=3.0815e-06
+CTMRG iteration=12 corner_spectrum_residual=8.81198e-07
+CTMRG iteration=13 corner_spectrum_residual=2.41394e-07
+CTMRG iteration=14 corner_spectrum_residual=1.47277e-07
+CTMRG iteration=15 corner_spectrum_residual=1.12909e-07
+CTMRG iteration=16 corner_spectrum_residual=6.5235e-08
+CTMRG iteration=17 corner_spectrum_residual=3.22622e-08
+CTMRG iteration=18 corner_spectrum_residual=2.39434e-08
+CTMRG iteration=19 corner_spectrum_residual=1.14542e-07
+CTMRG iteration=20 corner_spectrum_residual=1.21418e-07
+CTMRG iteration=21 corner_spectrum_residual=1.06193e-08
+CTMRG iteration=22 corner_spectrum_residual=1.43805e-08
+CTMRG iteration=23 corner_spectrum_residual=1.51336e-07
+CTMRG iteration=24 corner_spectrum_residual=1.49064e-07
+CTMRG iteration=25 corner_spectrum_residual=1.98284e-08
+CTMRG iteration=26 corner_spectrum_residual=1.70984e-08
+CTMRG iteration=27 corner_spectrum_residual=2.82453e-08
+CTMRG iteration=28 corner_spectrum_residual=2.17413e-08
+CTMRG iteration=29 corner_spectrum_residual=2.46412e-08
+CTMRG iteration=30 corner_spectrum_residual=2.8831e-08
+CTMRG iteration=31 corner_spectrum_residual=6.50735e-08
+CTMRG iteration=32 corner_spectrum_residual=8.00761e-08
+CTMRG iteration=33 corner_spectrum_residual=3.2119e-08
+CTMRG iteration=34 corner_spectrum_residual=1.81281e-08
+CTMRG iteration=35 corner_spectrum_residual=7.21382e-08
+CTMRG iteration=36 corner_spectrum_residual=6.34262e-08
+CTMRG iteration=37 corner_spectrum_residual=1.45999e-08
+CTMRG iteration=38 corner_spectrum_residual=1.66948e-08
+CTMRG iteration=39 corner_spectrum_residual=2.88689e-08
+CTMRG iteration=40 corner_spectrum_residual=3.67149e-08
+CTMRG iteration=41 corner_spectrum_residual=2.80619e-08
+CTMRG iteration=42 corner_spectrum_residual=1.13022e-07
+CTMRG iteration=43 corner_spectrum_residual=1.214e-07
+CTMRG iteration=44 corner_spectrum_residual=2.18815e-08
+CTMRG iteration=45 corner_spectrum_residual=1.63849e-07
+CTMRG iteration=46 corner_spectrum_residual=1.64131e-07
+CTMRG iteration=47 corner_spectrum_residual=5.84386e-09
+CTMRG iteration=48 corner_spectrum_residual=1.1037e-08
+CTMRG iteration=49 corner_spectrum_residual=1.14756e-08
+CTMRG iteration=50 corner_spectrum_residual=1.27918e-07
+CTMRG iteration=51 corner_spectrum_residual=1.02254e-07
+CTMRG iteration=52 corner_spectrum_residual=1.09545e-07
+CTMRG iteration=53 corner_spectrum_residual=1.04205e-07
+CTMRG iteration=54 corner_spectrum_residual=3.38662e-08
+CTMRG iteration=55 corner_spectrum_residual=2.56419e-08
+CTMRG iteration=56 corner_spectrum_residual=6.1813e-08
+CTMRG iteration=57 corner_spectrum_residual=4.83857e-08
+CTMRG iteration=58 corner_spectrum_residual=2.15222e-08
+CTMRG iteration=59 corner_spectrum_residual=6.09006e-08
+CTMRG iteration=60 corner_spectrum_residual=6.04108e-08
+CTMRG iteration=61 corner_spectrum_residual=3.5342e-09
+CTMRG iteration=62 corner_spectrum_residual=9.88578e-09
+CTMRG iteration=63 corner_spectrum_residual=9.75965e-08
+CTMRG iteration=64 corner_spectrum_residual=7.4966e-08
+CTMRG iteration=65 corner_spectrum_residual=3.17041e-08
+CTMRG iteration=66 corner_spectrum_residual=2.16665e-08
+CTMRG iteration=67 corner_spectrum_residual=2.18925e-08
+CTMRG iteration=68 corner_spectrum_residual=1.62213e-08
+CTMRG iteration=69 corner_spectrum_residual=1.56624e-07
+CTMRG iteration=70 corner_spectrum_residual=1.57827e-07
+CTMRG iteration=71 corner_spectrum_residual=4.45674e-08
+CTMRG iteration=72 corner_spectrum_residual=2.17473e-08
+CTMRG iteration=73 corner_spectrum_residual=4.72284e-08
+CTMRG iteration=74 corner_spectrum_residual=7.8187e-08
+CTMRG iteration=75 corner_spectrum_residual=4.82198e-08
+CTMRG iteration=76 corner_spectrum_residual=3.77658e-08
+CTMRG iteration=77 corner_spectrum_residual=1.94192e-07
+CTMRG iteration=78 corner_spectrum_residual=1.94439e-07
+CTMRG iteration=79 corner_spectrum_residual=1.09665e-07
+CTMRG iteration=80 corner_spectrum_residual=1.11168e-07
+CTMRG iteration=81 corner_spectrum_residual=7.2809e-09
+CTMRG iteration=82 corner_spectrum_residual=2.3189e-08
+CTMRG iteration=83 corner_spectrum_residual=1.3659e-07
+CTMRG iteration=84 corner_spectrum_residual=1.08836e-07
+CTMRG iteration=85 corner_spectrum_residual=4.78642e-08
+CTMRG iteration=86 corner_spectrum_residual=9.62202e-09
+CTMRG iteration=87 corner_spectrum_residual=2.37763e-08
+CTMRG iteration=88 corner_spectrum_residual=2.77244e-08
+CTMRG iteration=89 corner_spectrum_residual=1.67441e-08
+CTMRG iteration=90 corner_spectrum_residual=1.57717e-08
+CTMRG iteration=91 corner_spectrum_residual=2.23357e-08
+CTMRG iteration=92 corner_spectrum_residual=6.0412e-08
+CTMRG iteration=93 corner_spectrum_residual=5.6785e-08
+CTMRG iteration=94 corner_spectrum_residual=3.57373e-08
+CTMRG iteration=95 corner_spectrum_residual=4.03218e-08
+CTMRG iteration=96 corner_spectrum_residual=5.214e-08
+CTMRG iteration=97 corner_spectrum_residual=4.02318e-08
+CTMRG iteration=98 corner_spectrum_residual=3.48902e-08
+CTMRG iteration=99 corner_spectrum_residual=3.03142e-08
+CTMRG iteration=100 corner_spectrum_residual=2.28462e-08
+OBS zz_01_x mean=-0.262082156259 connected=-0.0182624,-0.00131683,-0.000172521,-2.30199e-05,-3.72467e-06,-6.51973e-07,-1.19462e-07,-2.2453e-08,-4.28965e-09,-8.28618e-10,-1.61328e-10,-3.15986e-11
+OBS zz_01_y mean=-0.262082156259 connected=0.0124891,0.00248222,0.000451372,8.83877e-05,1.78159e-05,3.69919e-06,7.81936e-07,1.67464e-07,3.61901e-08,7.87115e-09,1.71963e-09,3.76867e-10
+OBS zz_02_x mean=-0.262082156327 connected=0.0124891,0.00248222,0.000451372,8.83877e-05,1.78159e-05,3.69919e-06,7.81936e-07,1.67464e-07,3.61901e-08,7.87115e-09,1.71963e-09,3.76867e-10
+OBS zz_02_y mean=-0.262082156327 connected=-0.0182624,-0.00131683,-0.000172521,-2.30199e-05,-3.72467e-06,-6.51973e-07,-1.19462e-07,-2.2453e-08,-4.28965e-09,-8.28618e-10,-1.61328e-10,-3.15986e-11
+OBS zz_12_x mean=-0.262082156299 connected=0.0124891,0.00248222,0.000451367,8.839e-05,1.78173e-05,3.6996e-06,7.82044e-07,1.67491e-07,3.61965e-08,7.87265e-09,1.71997e-09,3.76944e-10
+OBS zz_12_y mean=-0.262082156299 connected=0.0124891,0.00248222,0.000451367,8.839e-05,1.78173e-05,3.6996e-06,7.82044e-07,1.67491e-07,3.61965e-08,7.87265e-09,1.71997e-09,3.76944e-10
+OBS ss_01_x mean=-0.196561617194 connected=-0.0102137,-0.000740599,-9.70427e-05,-1.29487e-05,-2.09513e-06,-3.66735e-07,-6.71973e-08,-1.26298e-08,-2.41293e-09,-4.66098e-10,-9.0747e-11,-1.77742e-11
+OBS ss_01_y mean=-0.196561617194 connected=0.00702444,0.00139625,0.000253897,4.97181e-05,1.00215e-05,2.08079e-06,4.39839e-07,9.41987e-08,2.03569e-08,4.42752e-09,9.67291e-10,2.11987e-10
+OBS ss_02_x mean=-0.196561617245 connected=0.00702444,0.00139625,0.000253897,4.97181e-05,1.00215e-05,2.08079e-06,4.39839e-07,9.41987e-08,2.03569e-08,4.42752e-09,9.67292e-10,2.11987e-10
+OBS ss_02_y mean=-0.196561617245 connected=-0.0102137,-0.000740599,-9.70427e-05,-1.29487e-05,-2.09513e-06,-3.66735e-07,-6.71973e-08,-1.26298e-08,-2.41293e-09,-4.66098e-10,-9.0747e-11,-1.77742e-11
+OBS ss_12_x mean=-0.196561617224 connected=0.00702444,0.00139625,0.000253894,4.97194e-05,1.00222e-05,2.08102e-06,4.399e-07,9.42138e-08,2.03605e-08,4.42836e-09,9.67483e-10,2.12031e-10
+OBS ss_12_y mean=-0.196561617224 connected=0.00702444,0.00139625,0.000253894,4.97194e-05,1.00222e-05,2.08102e-06,4.399e-07,9.42138e-08,2.03605e-08,4.42836e-09,9.67483e-10,2.12031e-10
+Saved /workspace/PEPS-CalculationsRVB/results/paper-recheck/ctmrg/theta0_chi64.json; CTMRG converged=False; total_seconds=26.283

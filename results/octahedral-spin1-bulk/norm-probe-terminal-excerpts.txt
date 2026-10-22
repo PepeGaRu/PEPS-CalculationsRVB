@@ -1,0 +1,13 @@
+Completed terminal result lines (verbatim; the initial exploratory driver was /tmp/bulk_tensor_probe/hotrg_probe.py):
+
+DONE 3 4 hotrg seconds 135.38142273899985 z (np.float64(1.0), np.float64(10.948150365851944))
+DONE 3 8 hotrg seconds 180.43231945499974 z (np.float64(1.0), np.float64(11.956534995148651))
+DONE 4 2 hotrg seconds 145.60309491799944 z (np.float64(1.0), np.float64(9.16095972756229))
+
+Here z=(sign, log10(abs(norm))). These are unnormalized quantum-state norms.
+The production reproduction script is scripts/probe_octahedral_spin1_bulk_norm.py.
+The initial 3^3 chi=2 run returned sign=-1, log10(abs(norm))=-59.99962305761835; this is invalid because the true norm is positive and >=8.30862664448.
+
+Periodic 2^3 forced first coarse-graining benchmark was interrupted after approximately six minutes in quimb squared_op_to_reduced_factor/eigh_truncated_numba. It produced no numerical norm. The exact 2^3 periodic norm is already known independently. The new open 2^3 benchmark and physical-spin insertions are tested independently in tests/test_octahedral_spin1_bulk.py.
+
+Periodic 4^3 chi=4 was stopped after approximately 465 seconds, during the second (y) coarse-graining step, with no final result. Peak observed resident memory was below 1 GiB.

@@ -1,0 +1,310 @@
+{
+  "observable": "triangle ring\u2013ring physical bond covariance, translated along simulation x",
+  "state": "Conventional equal-coefficient fully covered spin-half singlet RVB; no semionic phase",
+  "unit": "One translation between adjacent small-square centres; contracted grid displacement (1,-1)",
+  "contraction": "D=3 PEPS; exact local physical support rank41; CTMRG chi64",
+  "data": [
+    {
+      "distance": [
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18
+      ],
+      "correlation": [
+        0.0022362834485695855,
+        0.0004889947140142627,
+        0.0001155268475673863,
+        2.8883375437764408e-05,
+        7.5225144589523786e-06,
+        2.0186866674268426e-06,
+        5.53913661283148e-07,
+        1.5459326721128732e-07,
+        4.3722483267748476e-08,
+        1.249741538470186e-08,
+        3.6029894946906387e-09,
+        1.0460564504160593e-09,
+        3.0546109408502173e-10,
+        8.962434340366949e-11,
+        2.6400016705297362e-11,
+        7.801746745993467e-12,
+        2.3117524852457086e-12
+      ],
+      "midpoint": [
+        2.5,
+        3.5,
+        4.5,
+        5.5,
+        6.5,
+        7.5,
+        8.5,
+        9.5,
+        10.5,
+        11.5,
+        12.5,
+        13.5,
+        14.5,
+        15.5,
+        16.5,
+        17.5
+      ],
+      "inverse_xi_eff": [
+        1.5202189125188947,
+        1.4428487302084319,
+        1.3862367641873767,
+        1.3453657336196025,
+        1.3154533162900002,
+        1.2931935857636627,
+        1.2762112430706618,
+        1.26293512442294,
+        1.2523406073444223,
+        1.2437579376547252,
+        1.236736583970477,
+        1.230960192163747,
+        1.22619544604489,
+        1.2222623299245134,
+        1.219016992510126,
+        1.2163417618938148
+      ],
+      "relative_cutoff": 1e-14,
+      "effective_ranks": [
+        35,
+        35,
+        35,
+        35
+      ]
+    },
+    {
+      "distance": [
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18
+      ],
+      "correlation": [
+        0.002236283446916337,
+        0.0004889946195919204,
+        0.00011552762146163913,
+        2.8882374082499517e-05,
+        7.520566632295673e-06,
+        2.016905311459054e-06,
+        5.527134970198965e-07,
+        1.5391823646434462e-07,
+        4.338648361104227e-08,
+        1.2344373207192216e-08,
+        3.5378182200752106e-09,
+        1.0197244042017086e-09,
+        2.9525822700337274e-10,
+        8.58029475841983e-11,
+        2.500805568430687e-11,
+        7.306296307129434e-12,
+        2.138780195794885e-12
+      ],
+      "midpoint": [
+        2.5,
+        3.5,
+        4.5,
+        5.5,
+        6.5,
+        7.5,
+        8.5,
+        9.5,
+        10.5,
+        11.5,
+        12.5,
+        13.5,
+        14.5,
+        15.5,
+        16.5,
+        17.5
+      ],
+      "inverse_xi_eff": [
+        1.5202191048744416,
+        1.4428418383100154,
+        1.3862781325061444,
+        1.3455900305562767,
+        1.3160771725282496,
+        1.2944798129198196,
+        1.2784182493268723,
+        1.2662735743035596,
+        1.256947606567827,
+        1.2496901333696582,
+        1.243977816299899,
+        1.239437358588506,
+        1.2357969591902656,
+        1.2328553596956269,
+        1.2304615161022245,
+        1.2285008196782858
+      ],
+      "relative_cutoff": 1e-12,
+      "effective_ranks": [
+        34,
+        34,
+        34,
+        34
+      ]
+    }
+  ],
+  "floor": 1e-13,
+  "floor_is_systematic_error_bound": false,
+  "fit_window": [
+    12,
+    18
+  ],
+  "fitted_models": {
+    "power_law": {
+      "status": "ok",
+      "minimum_points": 4,
+      "p": 18.12315079314643,
+      "inverse_xi": 0.0,
+      "xi": null,
+      "log_amplitude": 25.78735699117936,
+      "log_rms": 0.13613952475844204,
+      "condition": 1.0,
+      "rank": 2,
+      "physical_decay": true
+    },
+    "exponential": {
+      "status": "ok",
+      "minimum_points": 4,
+      "p": 0.0,
+      "inverse_xi": 1.224995272027809,
+      "xi": 0.8163296812930873,
+      "log_amplitude": -4.752453552694838,
+      "log_rms": 0.007028812170167907,
+      "condition": 1.0,
+      "rank": 2,
+      "physical_decay": true
+    },
+    "power_exponential": {
+      "status": "ok",
+      "minimum_points": 6,
+      "p": 0.8908239271489931,
+      "inverse_xi": 1.164977451475749,
+      "xi": 0.8583857127305239,
+      "log_amplitude": -3.2483696008151703,
+      "log_rms": 0.00020944509299366217,
+      "condition": 34.19972714923028,
+      "rank": 3,
+      "physical_decay": true
+    }
+  },
+  "earlier_window": [
+    8,
+    14
+  ],
+  "earlier_models": {
+    "power_law": {
+      "status": "ok",
+      "minimum_points": 4,
+      "p": 13.397032551224038,
+      "inverse_xi": 0.0,
+      "xi": null,
+      "log_amplitude": 13.716419169970404,
+      "log_rms": 0.1858132486499789,
+      "condition": 1.0,
+      "rank": 2,
+      "physical_decay": true
+    },
+    "exponential": {
+      "status": "ok",
+      "minimum_points": 4,
+      "p": 0.0,
+      "inverse_xi": 1.2498737184880426,
+      "xi": 0.800080828333352,
+      "log_amplitude": -4.431505059747394,
+      "log_rms": 0.015535606345036097,
+      "condition": 1.0,
+      "rank": 2,
+      "physical_decay": true
+    },
+    "power_exponential": {
+      "status": "ok",
+      "minimum_points": 6,
+      "p": 1.0367280890111026,
+      "inverse_xi": 1.1537313143614918,
+      "xi": 0.8667529324654145,
+      "log_amplitude": -3.0207611693868763,
+      "log_rms": 0.00017870877575820368,
+      "condition": 24.796045280043227,
+      "rank": 3,
+      "physical_decay": true
+    }
+  },
+  "cutoff_comparison": {
+    "14": {
+      "selected_value": 3.0546109408502173e-10,
+      "comparison_value": 2.9525822700337274e-10,
+      "relative_change": 0.03455574188465354,
+      "above_floor": true
+    },
+    "18": {
+      "selected_value": 2.3117524852457086e-12,
+      "comparison_value": 2.138780195794885e-12,
+      "relative_change": 0.08087427113403658,
+      "above_floor": true
+    }
+  },
+  "caption": "We measure the connected physical bond covariance C_B(r)=<B_0 B_r>-<B_0><B_r>, B=S_i\u00b7S_j, using a D=3 PEPS and infinite-plane CTMRG contraction (\u03c7=64). Boundary-contraction and sector-resolved transfer diagnostics follow the RVB-PEPS framework of Schuch et al. [1,2]; these are our model\u2019s data. Over r=12\u201318, exponential and power-times-exponential fits give \u03be\u22480.82 and 0.86 simulation cells. The fitted pure-power exponent drifts from 13.4 to 18.1. Cutoff changes alter C_B(18) by 8%, so \u03be\u22480.8\u20130.9 is a finite-window decay scale, not a precise bulk asymptote. One translation follows a diagonal (1,\u22121) of the contracted square grid.",
+  "references": [
+    {
+      "number": 1,
+      "authors": "N. Schuch, D. Poilblanc, J. I. Cirac, D. P\u00e9rez-Garc\u00eda",
+      "title": "Resonating valence bond states in the PEPS formalism",
+      "year": 2012,
+      "arxiv": "1203.4816",
+      "url": "https://arxiv.org/abs/1203.4816",
+      "method_note": "Fig. 11 uses a boundary iMPS/iTEBD contraction; Fig. 12 separates leading topological transfer sectors. This figure uses CTMRG instead."
+    },
+    {
+      "number": 2,
+      "authors": "D. Poilblanc, N. Schuch, D. P\u00e9rez-Garc\u00eda, J. I. Cirac",
+      "title": "Topological and entanglement properties of resonating valence bond wave functions",
+      "year": 2012,
+      "arxiv": "1202.0947",
+      "url": "https://arxiv.org/abs/1202.0947",
+      "method_note": "Finite-cylinder sector control supplies an independent diagnostic, not a replacement for bulk convergence."
+    }
+  ],
+  "limits": "Finite-distance and cutoff dependence remain; no precise bulk xi or exclusion of a weaker tail.",
+  "sources": [
+    {
+      "path": "results/octagon-square/ctmrg/chi64_cutoff1e-14_mult1e-18.json",
+      "sha256": "40e38ce2b251306603a5185b41dadbdc55d526d3c376a10ae84aa743d1158e6e"
+    },
+    {
+      "path": "results/octagon-square/ctmrg/chi64_cutoff1e-12_mult1e-18.json",
+      "sha256": "b7e9f70cf26af7d0ec6b1a9515b65aecf2f48fe02cba5bfe600694d035846730"
+    },
+    {
+      "path": "results/octagon-square/ctmrg/summary.json",
+      "sha256": "17b7cfcf926635d587a2d952bfe65bf4fa54c796ee811a2458b00f9c10ddf5ba"
+    }
+  ]
+}
